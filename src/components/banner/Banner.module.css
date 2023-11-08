@@ -1,0 +1,83 @@
+.banner {
+  height: 100vh;
+  width: 100%;
+
+  background-image: url("../../../public/ayesha/bannerimage.jpg");
+  background-size: 100%;
+  background-position: left top;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+
+  height: 75%;
+  width: 85%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  height: 100%;
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  color: white;
+}
+.left > * {
+  margin: 20px;
+}
+.left > h1 {
+  font-size: 4rem;
+}
+
+.timer {
+  width: 63%;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer > div {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.up {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.up > h1 {
+  background-color: rgb(52, 160, 74);
+  font-size: 3rem;
+  width: 55px;
+  text-align: center;
+}
+.down {
+  height: 35%;
+  font-size: 0.6rem;
+  font-weight: 100;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.right {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

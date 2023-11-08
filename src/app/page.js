@@ -1,7 +1,11 @@
+import Banner from "@/components/banner/Banner";
+import Objectives from "@/components/objectives/Objectives";
+
 export default function Home() {
   return (
-    <div>
-      <h1>FreeLancerr</h1>
-    </div>
+    <>
+      <Banner />
+      <Objectives />
+    </>
   );
 }

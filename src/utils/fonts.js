@@ -1,5 +1,3 @@
-// I made some changes
-
 import {
   Poiret_One,
   Cinzel,
@@ -14,8 +12,17 @@ import {
   Gruppo,
   Manrope,
   Goudy_Bookletter_1911,
+  Poppins,
 } from "@next/font/google";
 
+export const poppinsLight = Poppins({
+  weight: "200",
+  subsets: ["latin"],
+});
+export const poppins = Poppins({
+  weight: "600",
+  subsets: ["latin"],
+});
 export const goudy = Goudy_Bookletter_1911({
   weight: "400",
   subsets: ["latin"],
