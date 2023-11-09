@@ -2,7 +2,7 @@
 
 import classes from "./Banner.module.css";
 import Navbar from "./navbar/Navbar";
-import { FaPersonDress } from "react-icons/fa6";
+import code from "../../../public/code.png";
 import { poppins, poppinsLight } from "@/utils/fonts";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import fps from "../../../public/fps.png";
@@ -68,7 +68,7 @@ export default function Banner() {
             <Image
               src={fps}
               className={classes.fps}
-              height={20}
+              height={21}
               width={130}
               style={{ color: "white" }}
             ></Image>
@@ -76,7 +76,7 @@ export default function Banner() {
         </div>
 
         <div className={classes.right}>
-          <FaPersonDress color="green" size={400} />
+          <Image src={code} className={classes.code} />
         </div>
       </div>
     </div>

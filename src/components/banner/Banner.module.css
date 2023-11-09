@@ -31,10 +31,11 @@
   color: white;
 }
 .left > * {
-  margin: 20px;
+  margin: 10px 0;
 }
 .left > h1 {
-  font-size: 4rem;
+  font-size: 3.3rem;
+  width: 85%;
 }
 
 .timer {
@@ -62,7 +63,7 @@
 }
 .up > h1 {
   background-color: rgb(52, 160, 74);
-  font-size: 3rem;
+  font-size: 3.2rem;
   width: 55px;
   text-align: center;
 }
@@ -85,4 +86,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.code {
+  height: 500px;
 }
