@@ -4,6 +4,9 @@ import classes from "./Banner.module.css";
 import Navbar from "./navbar/Navbar";
 import { FaPersonDress } from "react-icons/fa6";
 import { poppins, poppinsLight } from "@/utils/fonts";
+import { FaRegCalendarAlt } from "react-icons/fa";
+import fps from "../../../public/fps.png";
+import Image from "next/image";
 
 export default function Banner() {
   return (
@@ -13,6 +16,7 @@ export default function Banner() {
       <div className={classes.main}>
         <div className={classes.left}>
           <p className={poppinsLight.className}>
+            <FaRegCalendarAlt className={classes.calendar} />
             13th December, 2023, Islamia University of Bahawalpur
           </p>
           <h1 className={poppins.className}>
@@ -58,6 +62,17 @@ export default function Banner() {
               </div>
             </div>
           </div>
+
+          <p className={poppinsLight.className}>
+            Organized by
+            <Image
+              src={fps}
+              className={classes.fps}
+              height={20}
+              width={130}
+              style={{ color: "white" }}
+            ></Image>
+          </p>
         </div>
 
         <div className={classes.right}>

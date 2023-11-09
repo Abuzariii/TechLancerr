@@ -1,12 +1,39 @@
 .navbar {
   width: 100%;
-  height: 50px;
+  height: 100px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: white;
 }
 .nav {
-  width: 80%;
+  width: 85%;
   height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 40%;
+}
+.nav > button {
+  background-color: rgb(51, 160, 74);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.nav p {
+  transition: color 0.2s ease-in-out;
+}
+.nav p:hover {
+  cursor: pointer;
+  color: rgb(51, 160, 74);
 }
