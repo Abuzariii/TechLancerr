@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(46, 46, 45);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer > div {
+  width: 90%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  background-color: red;
+}

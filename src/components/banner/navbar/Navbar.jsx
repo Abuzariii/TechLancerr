@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className={classes.navbar}>
       <div className={classes.nav}>
-        <Image src={techlancerrSmall} height={60} width={160}></Image>
+        <Image src={techlancerrSmall} height={60}></Image>
 
         <div className={classes.pages}>
           <p className={poppinsLight.className}>SPEAKERS</p>
