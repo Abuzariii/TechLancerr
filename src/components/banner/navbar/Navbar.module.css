@@ -43,3 +43,11 @@
     font-size: 0.8rem;
   }
 }
+@media (max-width: 850px) {
+  .nav {
+    width: 90%;
+  }
+  .nav > div {
+    display: none;
+  }
+}
