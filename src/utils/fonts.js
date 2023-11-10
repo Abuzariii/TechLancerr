@@ -19,6 +19,10 @@ export const poppinsLight = Poppins({
   weight: "200",
   subsets: ["latin"],
 });
+export const poppins400 = Poppins({
+  weight: "400",
+  subsets: ["latin"],
+});
 export const poppins = Poppins({
   weight: "600",
   subsets: ["latin"],

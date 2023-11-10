@@ -1,6 +1,7 @@
 .objectives {
   width: 100%;
   min-height: 100vh;
+  padding: 50px 0;
 
   display: flex;
   justify-content: center;
@@ -10,16 +11,52 @@
 .objectives > h1 {
   margin-bottom: 20px;
   color: rgb(123, 197, 104);
+  font-size: 3rem;
+  margin: 50px 0;
 }
 .main {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .main > div {
-  width: 250px;
-  height: 250px;
+  min-width: 300px;
+  max-width: 350px;
+  padding: 40px 10px;
   background-color: rgb(52, 137, 72);
   margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.main > div > * {
+  margin: 10px 0;
+}
+.main > div h1 {
+  font-size: 1.8rem;
+}
+.main > div p {
+  font-size: 0.8rem;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
+  color: rgb(123, 197, 104);
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .main {
+    width: 100px;
+  }
+  .main > div h1 {
+    font-size: 1.5rem;
+  }
+  .main > div p {
+    font-size: 0.6rem;
+  }
 }
