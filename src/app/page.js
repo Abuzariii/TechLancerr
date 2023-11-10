@@ -1,6 +1,7 @@
 import Banner from "@/components/banner/Banner";
 import Community from "@/components/community/Community";
 import Objectives from "@/components/objectives/Objectives";
+import Schedule from "@/components/schedule/Schedule";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <Community />
       <Objectives />
+      <Schedule />
     </>
   );
 }
