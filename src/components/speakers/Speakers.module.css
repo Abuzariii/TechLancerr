@@ -1,0 +1,43 @@
+.speakersMain {
+  background: #d7eed2;
+  padding: 20px;
+}
+
+.speakersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.speakersHeading {
+  font-weight: 600;
+  background: #3a964f;
+  text-align: left;
+  padding: 20px;
+  margin: 60px;
+  border-top-right-radius: 90px;
+}
+
+.speakersHeadingTitle {
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.speakersHeadingPara {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .speakersMain {
+    padding: 10px;
+  }
+  .speakersHeading {
+    font-size: 32px;
+    margin: 20px;
+  }
+}

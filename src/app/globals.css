@@ -35,3 +35,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(139, 132, 132);
 }
+
+.headingBg {
+  font-weight: 600;
+  background: #3a964f;
+  text-align: left;
+  padding: 20px;
+  margin: 60px;
+  border-top-right-radius: 90px;
+}
