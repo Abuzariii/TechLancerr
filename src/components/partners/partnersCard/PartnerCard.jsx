@@ -57,13 +57,13 @@ const Sponsors = () => {
               <div className={styles.partnerCards}>
                 {subCategorySponsors.map((partner) => (
                   <div className={`${styles.partnerCard}`} key={partner.id}>
-                    <a
+                    {/* <a
                       href={partner.link}
-                      target="_blank"
+                      // target="_blank"
                       rel="noopener noreferrer"
-                    >
-                      <img src={partner.logo} alt={partner.name} />
-                    </a>
+                    > */}
+                    <img src={partner.logo} alt={partner.name} />
+                    {/* </a> */}
                   </div>
                 ))}
               </div>
