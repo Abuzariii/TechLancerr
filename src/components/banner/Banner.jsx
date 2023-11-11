@@ -69,7 +69,7 @@ export default function Banner() {
               src={fps}
               className={classes.fps}
               height={21}
-              width={130}
+              // width={130}
               style={{ color: "white" }}
             ></Image>
           </p>

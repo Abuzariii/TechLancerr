@@ -6,7 +6,9 @@ const Speakers = ({ speakers }) => {
   return (
     <div className={styles.speakersMain}>
       <div className="headingBg">
-        <div className={styles.speakersHeadingTitle}>Global Experts in Distributed Work</div>
+        <div className={styles.speakersHeadingTitle}>
+          Global Experts in Distributed Work
+        </div>
         <div className={styles.speakersHeadingPara}>
           Join renowned distributed work experts​. Our speakers are industry
           practitioners with extensive experience leading, running, and managing

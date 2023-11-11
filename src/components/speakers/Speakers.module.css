@@ -4,6 +4,7 @@
 }
 
 .speakersContainer {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -23,5 +24,9 @@
   .speakersHeading {
     font-size: 32px;
     margin: 20px;
+  }
+  .speakersHeadingPara {
+    font-size: 14px;
+    padding: 10px 0;
   }
 }
