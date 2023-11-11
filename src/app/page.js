@@ -3,6 +3,7 @@ import Community from "@/components/community/Community";
 import Objectives from "@/components/objectives/Objectives";
 import Schedule from "@/components/schedule/Schedule";
 import Speakers from "@/components/speakers/Speakers";
+import Partners from "@/components/partners/Partners";
 import Footer from "@/components/footer/Footer";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Objectives />
       <Schedule />
       <Speakers />
+      <Partners />
       <Footer />
     </>
   );
