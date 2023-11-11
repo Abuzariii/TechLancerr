@@ -26,7 +26,9 @@
   border-radius: 10px;
   border: none;
 }
-.nav p {
+
+.pages > * {
+  color: white;
   transition: color 0.2s ease-in-out;
 }
 .nav p:hover {
