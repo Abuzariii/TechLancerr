@@ -18,9 +18,9 @@ const Organizers = () => {
       <div className={styles.partnerCards}>
         {organizers.map((partner) => (
           <div className={`${styles.partnerCard}`} key={partner.id}>
-            <a href={partner.link} target="_blank" rel="noopener noreferrer">
+            {/* <a href={partner.link} target="_blank" rel="noopener noreferrer"> */}
               <img src={partner.logo} alt={partner.name} />
-            </a>
+            {/* </a> */}
           </div>
         ))}
       </div>
