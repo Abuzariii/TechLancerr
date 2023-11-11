@@ -61,13 +61,15 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .up > h1 {
-  background-color: rgb(52, 160, 74);
+  background-color: #34a04a;
   font-size: 3.2rem;
   width: 55px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
 }
 .down {
   height: 35%;
@@ -78,6 +80,10 @@
 }
 .calendar {
   margin-right: 10px;
+}
+
+.organizer {
+  margin-top: 40px;
 }
 .fps {
   margin-left: 20px;
