@@ -9,27 +9,11 @@
   justify-content: center;
 }
 
-.speakersHeading {
-  font-weight: 600;
-  background: #3a964f;
-  text-align: left;
-  padding: 20px;
-  margin: 60px;
-  border-top-right-radius: 90px;
-}
-
-.speakersHeadingTitle {
-  font-size: 48px;
-  font-weight: 600;
-  color: #ffffff;
-  padding: 20px 0;
-}
-
 .speakersHeadingPara {
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
-  padding: 0 10px;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,5 +1,5 @@
 import Speakers from "@/components/speakers/Speakers";
-import speakersData from "@/utils/SpeakersData";
+import speakersData from "@/utils/speakers";
 import styles from "./page.module.css";
 
 function page() {

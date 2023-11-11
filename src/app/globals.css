@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -28,19 +29,23 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(205, 201, 201);
+  background: #cdc9c9;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(139, 132, 132);
+  background: #8b8484;
 }
+
 
 .headingBg {
   font-weight: 600;
   background: #3a964f;
-  text-align: left;
+  text-align: center;
   padding: 20px;
   margin: 60px;
   border-top-right-radius: 90px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
 }

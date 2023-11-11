@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Speakers.module.css"; // Create this file for styling
+import styles from "./Speakers.module.css";
 import SpeakerCard from "./SpeakersCard/SpeakerCard";
 
 const Speakers = ({ speakers }) => {

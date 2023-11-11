@@ -16,7 +16,6 @@ const SpeakerCard = ({ name, title, image }) => {
         <div className={styles.speakerName}>{name}</div>
         <div className={styles.speakerTitle}>{title}</div>
       </div>
-      <div className={styles.bottomBorder}></div>
     </div>
   );
 };
