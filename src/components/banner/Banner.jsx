@@ -7,8 +7,42 @@ import { poppins, poppinsLight } from "@/utils/fonts";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import fps from "../../../public/fps.png";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function Banner() {
+  const [timerData, setTimerData] = useState([
+    { value: ["0", "0"], label: "DAYS" },
+    { value: ["0", "0"], label: "HOURS" },
+    { value: ["0", "0"], label: "MINUTES" },
+    { value: ["0", "0"], label: "SECONDS" },
+  ]);
+
+  useEffect(() => {
+    const endDate = new Date('2023-12-13T00:00:00'); // Your specified end date
+
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const difference = endDate - now;
+
+      if (difference > 0) {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        setTimerData([
+          { value: days.toString().padStart(2, '0').split(''), label: 'DAYS' },
+          { value: hours.toString().padStart(2, '0').split(''), label: 'HOURS' },
+          { value: minutes.toString().padStart(2, '0').split(''), label: 'MINUTES' },
+          { value: seconds.toString().padStart(2, '0').split(''), label: 'SECONDS' },
+        ]);
+      } else {
+        clearInterval(interval);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className={classes.banner}>
       <Navbar></Navbar>
@@ -24,55 +58,32 @@ export default function Banner() {
           </h1>
 
           <div className={classes.timer}>
-            <div className={poppinsLight.className}>
-              <div className={classes.up}>
-                <h1>2</h1>
-                <h1>9</h1>
+            {timerData.map((data, index) => (
+              <div className={poppinsLight.className} key={index}>
+                <div className={classes.up}>
+                  {data.value.map((value, i) => (
+                    <h1 key={i}>{value}</h1>
+                  ))}
+                </div>
+                <div className={classes.down}>
+                  <h1>{data.label}</h1>
+                </div>
               </div>
-              <div className={classes.down}>
-                <h1>DAYS</h1>
-              </div>
-            </div>
-
-            <div className={poppinsLight.className}>
-              <div className={classes.up}>
-                <h1>2</h1>
-                <h1>9</h1>
-              </div>
-              <div className={classes.down}>
-                <h1>HOURS</h1>
-              </div>
-            </div>
-            <div className={poppinsLight.className}>
-              <div className={classes.up}>
-                <h1>2</h1>
-                <h1>9</h1>
-              </div>
-              <div className={classes.down}>
-                <h1>MINUTES</h1>
-              </div>
-            </div>
-            <div className={poppinsLight.className}>
-              <div className={classes.up}>
-                <h1>2</h1>
-                <h1>9</h1>
-              </div>
-              <div className={classes.down}>
-                <h1>SECONDS</h1>
-              </div>
-            </div>
+            ))}
           </div>
 
-          <p className={poppinsLight.className}>
-            Organized by
-            <Image
-              src={fps}
-              className={classes.fps}
-              height={21}
-              // width={130}
-              style={{ color: "white" }}
-            ></Image>
-          </p>
+          <div className={classes.organizer}>
+            <p className={poppinsLight.className}>
+              Organized by
+              <Image
+                src={fps}
+                className={classes.fps}
+                height={21}
+                // width={130}
+                style={{ color: "white" }}
+              />
+            </p>
+          </div>
         </div>
 
         <div className={classes.right}>
