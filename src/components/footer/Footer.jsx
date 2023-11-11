@@ -5,6 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
 import { poppins400, poppins } from "@/utils/fonts";
 import { IoPin } from "react-icons/io5";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -12,6 +13,9 @@ export default function Footer() {
       <div className={classes.up}>
         <div>
           <h3 className={poppins.className}>Quick Links</h3>
+          {/* <Link href={"/schedule"} className="link">
+            <p className={poppins400.className}>Contact Us</p>
+          </Link> */}
           <p className={poppins400.className}>Contact Us</p>
           <p className={poppins400.className}>Register</p>
           <p className={poppins400.className}>Partners</p>
@@ -20,26 +24,38 @@ export default function Footer() {
 
         <div className={classes.iconsDiv}>
           <a
-            href="https://www.facebook.com/Iubsps"
+            href="https://www.facebook.com/techlancerrr"
             target="_blank"
             rel="noreferrer"
           >
             <BsFacebook color="white" size="25px" />
           </a>
           <a
-            href="https://www.instagram.com/iubsps/"
+            href="https://www.instagram.com/techlancerr"
             target="_blank"
             rel="noreferrer"
           >
             <BsInstagram color="white" size="25px" />
           </a>
-          <a href="https://twitter.com/iubsps" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com/techlancerr"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaXTwitter color="white" size="25px" />
           </a>
-          <a href="https://twitter.com/iubsps" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/company/techlancerr"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsLinkedin color="white" size="25px" />
           </a>
-          <a href="https://twitter.com/iubsps" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.tiktok.com/@techlancerr"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsTiktok color="white" size="25px" />
           </a>
         </div>
@@ -48,7 +64,7 @@ export default function Footer() {
       <div className={classes.down}>
         <Image src={techlancerrSmall} height={60} />
         <p className={poppins400.className}>
-          <IoPin color="white" size="20px" className={classes.pin} />
+          <IoPin color="white" size="30px" className={classes.pin} />
           13th December, Main Auditorium, The Islamia University of Bahawalpur
         </p>
       </div>

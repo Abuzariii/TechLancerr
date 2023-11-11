@@ -30,4 +30,7 @@
   .partners > h1 {
     font-size: 2.5rem;
   }
+  .main > * {
+    margin: 20px 50px;
+  }
 }
