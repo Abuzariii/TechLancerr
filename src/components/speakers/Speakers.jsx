@@ -1,7 +1,7 @@
 import classes from "./Speakers.module.css";
 import { poppins400 } from "@/utils/fonts";
 import { poppins } from "@/utils/fonts";
-import speaker1 from "public/Ayesha/speaker1.png";
+import speaker1 from "../../../public/Ayesha/speaker1.png";
 import Image from "next/image";
 
 export default function Speakers() {
