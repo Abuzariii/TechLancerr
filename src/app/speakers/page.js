@@ -1,6 +1,5 @@
 import Speakers from "@/components/speakers/Speakers";
 import speakersData from "@/utils/speakers";
-import styles from "./page.module.css";
 
 function page() {
   return (
@@ -11,3 +10,9 @@ function page() {
 }
 
 export default page;
+
+export const metadata = {
+  title: "Speakers",
+  description:
+    "Meet our speakers, some of the top IT professionals nationwide, from tech makers to e com sellers, entrepreneurs and student success stories, you have a chance to meet em all",
+};
