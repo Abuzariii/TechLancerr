@@ -33,7 +33,7 @@ const partners = [
     id: 6,
     name: "The Computing Students Society",
     category: "organizers",
-    logo: "/partners/css.png",
+    logo: "/partners/CSS.png",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const partners = [
     id: 10,
     name: "DevHack Club",
     category: "organizers",
-    logo: "/partners/devhack.png",
+    logo: "/partners/Devhack.png",
   },
   {
     id: 11,
