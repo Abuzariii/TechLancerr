@@ -18,45 +18,48 @@ export default function Objectives() {
           <PiBagFill size={50} />
           <h1 className={poppins400.className}>Job Opportunities</h1>
           <p className={poppins400.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae nam dolorem eos assumenda, est ratione sequi atque.
-            Quaerat, obcaecati aperiam!
+            Provide a platform for students to explore employment and internship
+            opportunities through walk-in interviews. IT companies will set up
+            their stalls and conduct assessments to identify promising
+            candidates.
           </p>
         </div>
         <div>
           <AiOutlineDollar size={50} />
           <h1 className={poppins400.className}>Financial Empowerment</h1>
           <p className={poppins400.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae nam dolorem eos assumenda, est ratione sequi atque.
-            Quaerat, obcaecati aperiam!
+            Empower students financially by providing workshops and sessions
+            that offer insights into budgeting, investing, and financial
+            planning. Professionals from finance industry will guide students
+            towards a more secure financial future.
           </p>
         </div>
         <div>
           <HiOutlineDocumentText size={50} color="white" />
           <h1 className={poppins400.className}>High Success Stories</h1>
           <p className={poppins400.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae nam dolorem eos assumenda, est ratione sequi atque.
-            Quaerat, obcaecati aperiam!
+            Success stories from all over Pakistan and specially South Punjab
+            will be celebrated. From tech gurus to influencers, professionals
+            from diverse backgrounds will gather and inspire others by sharing
+            their journeys.
           </p>
         </div>
         <div>
           <IoMdFlashlight size={50} />
           <h1 className={poppins400.className}>Skill Development</h1>
           <p className={poppins400.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae nam dolorem eos assumenda, est ratione sequi atque.
-            Quaerat, obcaecati aperiam!
+            There will be an emphasis on enhancing students' skills, motivating
+            them to shift from traditional services to in-demand and high income
+            skills.
           </p>
         </div>
         <div>
           <GiBrain size={50} />
           <h1 className={poppins400.className}>Marketing Mastery</h1>
           <p className={poppins400.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae nam dolorem eos assumenda, est ratione sequi atque.
-            Quaerat, obcaecati aperiam!
+            A golden opportunity for students to network with industry
+            professionals, explore job prospects and share their prowess with
+            potential employers, who can help students secure a better future.
           </p>
         </div>
         <div>
