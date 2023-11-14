@@ -41,7 +41,7 @@
 
 .timer {
   width: 63%;
-  max-width: 560px;
+  max-width: fit-content;
   height: 100px;
 
   display: flex;
@@ -49,28 +49,35 @@
   align-items: center;
 }
 .timer > div {
-  height: 100%;
-  width: 20%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-right: 10px;
 }
+.timer > div:not(:last-child) {
+  margin-right: 10px;
+}
+
 .up {
   height: 65%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
 }
 .up > h1 {
+  margin-right: 5px;
   background-color: #34a04a;
   font-size: 3.2rem;
-  width: 55px;
+  min-width: 50px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  margin-left: 5px;
 }
+
+.up > h1:last-child {
+  margin-right: 5px;
+}
+
 .down {
   height: 35%;
   font-size: 0.6rem;
@@ -78,6 +85,7 @@
   margin-top: 10px;
   font-family: "Poppins", sans-serif;
 }
+
 .calendar {
   margin-right: 10px;
 }
@@ -130,10 +138,10 @@
     width: 100%;
   }
 
-  .up > h1 {
+  /* .up > h1 {
     font-size: 1.6rem;
     width: 45px;
-  }
+  } */
   .down {
     height: 35%;
     font-size: 0.4rem;
@@ -155,5 +163,70 @@
 @media (max-width: 850px) {
   .banner {
     background-size: 300%;
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 100%;
+    height: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .left > p {
+    font-size: 0.8rem;
+  }
+
+  .left > h1 {
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .timer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    padding: 10px 0;
+  }
+
+  .timer > div {
+    max-width: calc(25% - 10px);
+    text-align: center;
+    margin-right: 7px;
+  }
+
+  .timer > div:not(:last-child) {
+    margin-right: 7px;
+  }
+
+  .up {
+    display: flex;
+  }
+
+  .up > h1 {
+    font-size: 2rem;
+    min-width: 30px;
+    margin-right: 2px;
+  }
+
+  .up > h1:last-child {
+    margin-right: 2px;
+  }
+
+  .down {
+    font-size: 0.4rem;
+    font-weight: 100;
+    margin-top: 5px;
+  }
+
+  .code {
+    height: 300px;
   }
 }
