@@ -31,7 +31,8 @@
 .partnerCard {
   margin: 10px;
   padding: 10px;
-  box-shadow: -4px 7px 5px -1px #00000094;
+  box-shadow: -4px 7px 5px -1px #00000033;
+  /* box-shadow: -4px 7px 5px -1px #00000094; */
   /* box-shadow: 6px 6px 6px 0px #00000040; */
   transition: transform 0.3s ease-in-out;
   background-color: white;

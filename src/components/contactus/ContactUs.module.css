@@ -1,0 +1,92 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.formSection {
+  width: 70%;
+  text-align: left;
+}
+
+.formHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #349948;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  margin-top: 10px;
+  color: #349948;
+}
+
+.formInput,
+.formTextarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #349948;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.formInput:focus,
+.formTextarea:focus {
+  border-color: #297e3d;
+}
+
+.formButton {
+  width: 20%;
+  background-color: #349948;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.formButton:hover {
+  background-color: #297e3d;
+}
+
+.contactInfoSection {
+  text-align: left;
+  background-color: #349948;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 100%;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .formSection,
+  .contactInfoSection {
+    margin-bottom: 20px;
+  }
+}
