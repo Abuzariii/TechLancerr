@@ -21,7 +21,7 @@ export default function Navbar() {
           <Link href={"/schedule"} className="link">
             <p className={poppinsLight.className}>SCHEDULE</p>
           </Link>
-          <Link href={"/contact-us"} className="link">
+          <Link href={"/contact"} className="link">
             <p className={poppinsLight.className}>CONTACT US</p>
           </Link>
         </div>

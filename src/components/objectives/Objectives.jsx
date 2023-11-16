@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./Objectives.module.css";
 import { PiBagFill } from "react-icons/pi";
 import { AiOutlineDollar } from "react-icons/ai";
@@ -8,70 +9,60 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { poppins400 } from "@/utils/fonts";
 import { poppins } from "@/utils/fonts";
 
-export default function Objectives() {
+const objectivesData = [
+  {
+    icon: <PiBagFill size={50} />,
+    title: "Job Opportunities",
+    description:
+      "Providing students with rewarding career opportunities to unlock their potential.",
+  },
+  {
+    icon: <AiOutlineDollar size={50} />,
+    title: "Financial Empowerment",
+    description:
+      "Empowering students with the skills and knowledge to achieve financial stability through freelancing.",
+  },
+  {
+    icon: <HiOutlineDocumentText size={50} color="white" />,
+    title: "High Success Stories",
+    description:
+      "Showcasing the achievements of freelancers from South Punjab to inspire and motivate students.",
+  },
+  {
+    icon: <IoMdFlashlight size={50} />,
+    title: "Skill Development",
+    description:
+      "Discussing various skills and technologies crucial for success in the freelancing industry",
+  },
+  {
+    icon: <GiBrain size={50} />,
+    title: "Marketing Mastery",
+    description:
+      "Providing insights into effective freelancing skill marketing and brand building.",
+  },
+  // {
+  //   icon: <AiOutlineShoppingCart size={50} />,
+  //   title: "Media Buying",
+  //   description:
+  //     "Explore the dynamic world of media buying and advertising strategies. Learn to optimize ad placements, negotiate deals, and make impactful decisions in the fast-paced media industry.",
+  // },
+];
+
+const Objectives = () => {
   return (
     <div className={classes.objectives}>
       <h1 className={poppins.className}>OBJECTIVES</h1>
-
       <div className={classes.main}>
-        <div>
-          <PiBagFill size={50} />
-          <h1 className={poppins400.className}>Job Opportunities</h1>
-          <p className={poppins400.className}>
-            Provide a platform for students to explore employment and internship
-            opportunities through walk-in interviews. IT companies will set up
-            their stalls and conduct assessments to identify promising
-            candidates.
-          </p>
-        </div>
-        <div>
-          <AiOutlineDollar size={50} />
-          <h1 className={poppins400.className}>Financial Empowerment</h1>
-          <p className={poppins400.className}>
-            Empower students financially by providing workshops and sessions
-            that offer insights into budgeting, investing, and financial
-            planning. Professionals from finance industry will guide students
-            towards a more secure financial future.
-          </p>
-        </div>
-        <div>
-          <HiOutlineDocumentText size={50} color="white" />
-          <h1 className={poppins400.className}>High Success Stories</h1>
-          <p className={poppins400.className}>
-            Success stories from all over Pakistan and specially South Punjab
-            will be celebrated. From tech gurus to influencers, professionals
-            from diverse backgrounds will gather and inspire others by sharing
-            their journeys.
-          </p>
-        </div>
-        <div>
-          <IoMdFlashlight size={50} />
-          <h1 className={poppins400.className}>Skill Development</h1>
-          <p className={poppins400.className}>
-            There will be an emphasis on enhancing students' skills, motivating
-            them to shift from traditional services to in-demand and high income
-            skills.
-          </p>
-        </div>
-        <div>
-          <GiBrain size={50} />
-          <h1 className={poppins400.className}>Marketing Mastery</h1>
-          <p className={poppins400.className}>
-            A golden opportunity for students to network with industry
-            professionals, explore job prospects and share their prowess with
-            potential employers, who can help students secure a better future.
-          </p>
-        </div>
-        <div>
-          <AiOutlineShoppingCart size={50} />
-          <h1 className={poppins400.className}>Media Buying </h1>
-          <p className={poppins400.className}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repudiandae nam dolorem eos assumenda, est ratione sequi atque.
-            Quaerat, obcaecati aperiam!
-          </p>
-        </div>
+        {objectivesData.map((objective, index) => (
+          <div key={index}>
+            {objective.icon}
+            <h1 className={poppins400.className}>{objective.title}</h1>
+            <p className={poppins400.className}>{objective.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
-}
+};
+
+export default Objectives;

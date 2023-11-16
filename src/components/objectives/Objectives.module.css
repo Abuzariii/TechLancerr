@@ -14,7 +14,7 @@
   margin: 50px 0;
 }
 .main {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -22,16 +22,17 @@
 .main > div {
   min-width: 300px;
   max-width: 350px;
+  max-height: fit-content;
   padding: 40px 10px;
   background-color: rgb(52, 137, 72);
   margin: 10px;
   text-align: center;
   border-radius: 8px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: -4px 7px 5px -1px #00000033;
   color: white;
 }
 .main > div > * {
@@ -39,12 +40,13 @@
 }
 .main > div h1 {
   font-size: 1.8rem;
+font-weight: bolder;
 }
 .main > div p {
   font-size: 0.8rem;
   word-spacing: 1.5px;
   letter-spacing: 1px;
-  color: rgb(123, 197, 104);
+  color: #e2e2e2;
 }
 
 /* Media Queries */

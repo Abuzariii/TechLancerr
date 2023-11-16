@@ -6,6 +6,7 @@ import speakersData from "@/utils/speakers";
 import Speakers from "@/components/speakers/Speakers";
 import Partners from "@/components/partners/Partners";
 import Footer from "@/components/footer/Footer";
+import RegistrationSection from "@/components/registeration/RegistrationSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Schedule />
       <Speakers speakers={speakersData} />
       <Partners />
+      <RegistrationSection />
       <Footer />
     </>
   );

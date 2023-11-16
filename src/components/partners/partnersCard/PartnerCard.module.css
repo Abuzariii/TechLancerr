@@ -31,7 +31,9 @@
 .partnerCard {
   margin: 10px;
   padding: 10px;
-  box-shadow: 6px -6px 6px 0px #00000040;
+  box-shadow: -4px 7px 5px -1px #00000033;
+  /* box-shadow: -4px 7px 5px -1px #00000094; */
+  /* box-shadow: 6px 6px 6px 0px #00000040; */
   transition: transform 0.3s ease-in-out;
   background-color: white;
   width: 150px;
@@ -42,7 +44,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  border-radius: 12px 70px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
   border-bottom: 5px solid #1e6131;
   /* border: 2px solid #1e6131; */
 }

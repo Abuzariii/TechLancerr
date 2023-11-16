@@ -20,6 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 .keynote,
 .speaker {
@@ -33,7 +34,6 @@
   max-width: 30%;
   padding: 20px 50px;
   margin-right: 30px;
-
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -51,8 +51,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  box-shadow: -4px 7px 5px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: -4px 7px 5px -1px #00000033;
+  /* box-shadow: -4px 7px 5px -1px rgba(0, 0, 0, 0.58); */
+  transition: all 0.3s ease-in-out;
 }
+
+.speaker:hover {
+  transform: translateY(-5px);
+}
+
 .speaker > div > * {
   margin: 10px 0 10px 20px;
 }
