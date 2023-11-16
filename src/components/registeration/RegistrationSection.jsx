@@ -3,8 +3,8 @@ import classes from "./RegistrationSection.module.css";
 
 const RegistrationSections = () => {
   return (
-    <div className={classes.bg}>
-      <div className="headingBg">Register Yourself</div>
+    <div className={classes.bg} id="registrationSection">
+      <div className="headingBg">REGISTER NOW</div>
       <div className={classes.registrationSections}>
         <div className={classes.registrationSection}>
           <h2 className={classes.upper}>

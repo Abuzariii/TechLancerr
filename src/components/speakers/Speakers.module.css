@@ -2,19 +2,14 @@
   width: 100%;
   min-height: 100vh;
   padding: 50px 0;
-  background-color: rgb(233, 245, 229);
+  background-color: #e9f5e5;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.speakers > h1 {
-  margin-bottom: 20px;
-  color: rgb(123, 197, 104);
-  font-size: 3rem;
-  margin: 50px 0;
-}
+
 .main {
   width: 90%;
   display: flex;

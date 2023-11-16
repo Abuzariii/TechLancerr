@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Speakers() {
   return (
     <div className={classes.speakers}>
-      <h1 className={poppins.className}>SPEAKERS</h1>
+      <h1 className={`${poppins.className} headingBg`}>SPEAKERS</h1>
 
       <div className={classes.main}>
         <div className={classes.keynote}>

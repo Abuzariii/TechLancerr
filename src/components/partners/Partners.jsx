@@ -4,7 +4,7 @@ import PartnerCard from "./partnersCard/PartnerCard";
 const Partners = () => {
   return (
     <div className={styles.partnersSection}>
-      <h2 className="headingBg">Our Partners</h2>
+      <h2 className="headingBg">OUR PARTNERS</h2>
 
       <div>
         <PartnerCard />

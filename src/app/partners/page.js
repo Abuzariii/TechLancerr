@@ -1,10 +1,11 @@
+import Navbar from "@/components/banner/navbar/Navbar";
 import PartnerCard from "@/components/partners/partnersCard/PartnerCard";
 
 const Partners = () => {
   return (
     <div>
+      <Navbar />
       <h2 className="headingBg">Partners</h2>
-
       <div>
         <PartnerCard />
       </div>

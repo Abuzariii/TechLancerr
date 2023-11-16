@@ -1,9 +1,12 @@
+import Navbar from "@/components/banner/navbar/Navbar";
 import Speakers from "@/components/speakers/Speakers";
 import speakersData from "@/utils/speakers";
 
 function page() {
   return (
     <div>
+      <Navbar />
+      {" "}
       <Speakers speakers={speakersData} />
     </div>
   );

@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -37,15 +38,14 @@ body {
   background: #8b8484;
 }
 
-
 .headingBg {
   font-weight: 600;
-  background: #3a964f;
+  color: #3a964f;
   text-align: center;
   padding: 20px;
   margin: 60px;
   border-top-right-radius: 90px;
   font-size: 48px;
   font-weight: 600;
-  color: #ffffff;
+  text-transform: capitalize;
 }
