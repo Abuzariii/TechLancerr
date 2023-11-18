@@ -8,11 +8,7 @@
   align-items: center;
   flex-direction: column;
 }
-.objectives > h1 {
-  color: rgb(123, 197, 104);
-  font-size: 3rem;
-  margin: 50px 0;
-}
+
 .main {
   width: 100%;
   display: flex;
@@ -40,7 +36,7 @@
 }
 .main > div h1 {
   font-size: 1.8rem;
-font-weight: bolder;
+  font-weight: bolder;
 }
 .main > div p {
   font-size: 0.8rem;

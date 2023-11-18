@@ -1,11 +1,14 @@
+.otherPagesNavbar {
+  background-color: #349948;
+}
+
 .navbar {
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-weight: 600;
+  color: #ffffff;
 }
 .nav {
   width: 85%;
@@ -20,25 +23,50 @@
   align-items: center;
   width: 40%;
 }
-.nav > button {
-  background-color: rgb(51, 160, 74);
-  color: white;
+.nav > a > button {
+  background-color: #33a04a;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.otherPagesNavbar .nav > a > button {
+  color: #33a04a;
+  background-color: #ffffff;
+}
+.nav > button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.otherPagesNavbar .nav > button a {
+  color: #33a04a;
 }
 
 .pages > * {
-  color: white;
+  color: #ffffff;
   transition: color 0.2s ease-in-out;
+}
+.nav p {
+  font-weight: 600;
+  color: #ffffff;
+}
+.otherPagesNavbar .nav p {
+  font-weight: 600;
+  color: #ffffff;
 }
 .nav p:hover {
   cursor: pointer;
-  color: rgb(51, 160, 74);
+  color: #33a04a;
 }
 
-/* Media Queries */
+.otherPagesNavbar .nav p:hover {
+  cursor: pointer;
+  color: #c2dec5;
+}
+
 @media (max-width: 1300px) {
   .nav > div {
     width: 50%;

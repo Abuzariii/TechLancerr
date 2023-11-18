@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Schedule() {
   return (
     <div className={classes.schedule}>
-      <h1 className={poppins.className}>SCHEDULE</h1>
+      <h1 className={`${poppins.className} headingBg`}>SCHEDULE</h1>
 
       <div className={classes.main}>
         <div className={classes.left}>

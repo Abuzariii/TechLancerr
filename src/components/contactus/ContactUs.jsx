@@ -8,27 +8,32 @@ const ContactUs = () => {
       <div className={classes.formSection}>
         <h2 className={classes.formHeading}>Get in Touch</h2>
         <form className={classes.form}>
-          <label className={classes.formLabel} htmlFor="name">
-            Name:
-          </label>
-          <input
-            className={classes.formInput}
-            type="text"
-            id="name"
-            name="name"
-            required
-          />
-
-          <label className={classes.formLabel} htmlFor="email">
-            Email:
-          </label>
-          <input
-            className={classes.formInput}
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
+          <div className={classes.details}>
+            <div className={classes.detail}>
+              <label className={classes.formLabel} htmlFor="name">
+                Name:
+              </label>
+              <input
+                className={classes.formInput}
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div className={classes.detail}>
+              <label className={classes.formLabel} htmlFor="email">
+                Email:
+              </label>
+              <input
+                className={classes.formInput}
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+          </div>
 
           <label className={classes.formLabel} htmlFor="message">
             Message:
@@ -48,17 +53,26 @@ const ContactUs = () => {
       </div>
 
       <div className={classes.contactInfoSection}>
-        <div className={classes.contactInfo}>
-          <FaMapMarkerAlt className={classes.icon} />
-          <p>123 Main Street, Cityville</p>
+        <div>
+          <h3>Address</h3>
+          <div className={classes.contactInfo}>
+            <FaMapMarkerAlt className={classes.icon} />
+            <p>Auditorium, IUB BJC</p>
+          </div>
         </div>
-        <div className={classes.contactInfo}>
-          <FaPhone className={classes.icon} />
-          <p>+1 234 567 890</p>
+        <div>
+          <h3>Contact Number</h3>
+          <div className={classes.contactInfo}>
+            <FaPhone className={classes.icon} />
+            <p>+1 234 567 890</p>
+          </div>
         </div>
-        <div className={classes.contactInfo}>
-          <FaEnvelope className={classes.icon} />
-          <p>info@example.com</p>
+        <div>
+          <h3>Email</h3>
+          <div className={classes.contactInfo}>
+            <FaEnvelope className={classes.icon} />
+            <p>info@example.com</p>
+          </div>
         </div>
       </div>
     </div>

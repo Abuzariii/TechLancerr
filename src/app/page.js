@@ -5,7 +5,6 @@ import Schedule from "@/components/schedule/Schedule";
 import speakersData from "@/utils/speakers";
 import Speakers from "@/components/speakers/Speakers";
 import Partners from "@/components/partners/Partners";
-import Footer from "@/components/footer/Footer";
 import RegistrationSection from "@/components/registeration/RegistrationSection";
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <Speakers speakers={speakersData} />
       <Partners />
       <RegistrationSection />
-      <Footer />
     </>
   );
 }

@@ -1,13 +1,13 @@
 "use client";
 
 import classes from "./Banner.module.css";
-import Navbar from "./navbar/Navbar";
 import code from "../../../public/code.png";
 import { poppins, poppinsLight } from "@/utils/fonts";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import fps from "../../../public/fps.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Navbar from "./navbar/Navbar";
 
 export default function Banner() {
   const [timerData, setTimerData] = useState([
@@ -18,7 +18,7 @@ export default function Banner() {
   ]);
 
   useEffect(() => {
-    const endDate = new Date('2023-12-13T00:00:00'); // Your specified end date
+    const endDate = new Date("2023-12-13T00:00:00"); // Your specified end date
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -26,15 +26,28 @@ export default function Banner() {
 
       if (difference > 0) {
         const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const hours = Math.floor(
+          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor(
+          (difference % (1000 * 60 * 60)) / (1000 * 60)
+        );
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
         setTimerData([
-          { value: days.toString().padStart(2, '0').split(''), label: 'DAYS' },
-          { value: hours.toString().padStart(2, '0').split(''), label: 'HOURS' },
-          { value: minutes.toString().padStart(2, '0').split(''), label: 'MINUTES' },
-          { value: seconds.toString().padStart(2, '0').split(''), label: 'SECONDS' },
+          { value: days.toString().padStart(2, "0").split(""), label: "DAYS" },
+          {
+            value: hours.toString().padStart(2, "0").split(""),
+            label: "HOURS",
+          },
+          {
+            value: minutes.toString().padStart(2, "0").split(""),
+            label: "MINUTES",
+          },
+          {
+            value: seconds.toString().padStart(2, "0").split(""),
+            label: "SECONDS",
+          },
         ]);
       } else {
         clearInterval(interval);
@@ -45,7 +58,7 @@ export default function Banner() {
   }, []);
   return (
     <div className={classes.banner}>
-      <Navbar></Navbar>
+      <Navbar isIndexPage />
 
       <div className={classes.main}>
         <div className={classes.left}>

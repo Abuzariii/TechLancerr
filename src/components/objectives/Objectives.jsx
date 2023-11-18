@@ -51,7 +51,7 @@ const objectivesData = [
 const Objectives = () => {
   return (
     <div className={classes.objectives}>
-      <h1 className={poppins.className}>OBJECTIVES</h1>
+      <h1 className={`${poppins.className} headingBg`}>OBJECTIVES</h1>
       <div className={classes.main}>
         {objectivesData.map((objective, index) => (
           <div key={index}>
