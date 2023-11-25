@@ -64,8 +64,8 @@ export default function Footer() {
       <div className={classes.down}>
         <Image src={techlancerrSmall} height={60} />
         <p className={poppins400.className}>
-          <IoPin color="white" size="30px" className={classes.pin} />
-          13th December, Main Auditorium, The Islamia University of Bahawalpur
+          <IoPin color="white" size="25px" className={classes.pin} />
+          21st December, Main Auditorium, The Islamia University of Bahawalpur
         </p>
       </div>
     </div>

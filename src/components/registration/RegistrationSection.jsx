@@ -15,7 +15,13 @@ const RegistrationSections = () => {
               Experience innovation and connect with industry leaders.
             </p>
             <div className={classes.divider}></div>
-            <button className={classes.registerButton}>Register</button>
+            <a
+              href="https://forms.gle/iN9RkJGK1QsB7B3X8"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
           </div>
         </div>
 
@@ -28,7 +34,13 @@ const RegistrationSections = () => {
               Showcase your brand and support the future of tech.
             </p>
             <div className={classes.divider}></div>
-            <button className={classes.registerButton}>Register</button>
+            <a
+              href="https://forms.gle/PEBWrYzgdCBaWnyY9"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
           </div>
         </div>
 
@@ -41,7 +53,13 @@ const RegistrationSections = () => {
               Share your expertise and inspire the tech community.
             </p>
             <div className={classes.divider}></div>
-            <button className={classes.registerButton}>Register</button>
+            <a
+              href="https://forms.gle/NnggsMGx2m1DQx5X6"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
           </div>
         </div>
       </div>

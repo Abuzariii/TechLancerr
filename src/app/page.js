@@ -5,7 +5,7 @@ import Schedule from "@/components/schedule/Schedule";
 import speakersData from "@/utils/speakers";
 import Speakers from "@/components/speakers/Speakers";
 import Partners from "@/components/partners/Partners";
-import RegistrationSection from "@/components/registeration/RegistrationSection";
+import RegistrationSection from "@/components/registration/RegistrationSection";
 
 export default function Home() {
   return (

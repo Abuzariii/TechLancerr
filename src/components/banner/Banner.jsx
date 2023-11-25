@@ -18,7 +18,7 @@ export default function Banner() {
   ]);
 
   useEffect(() => {
-    const endDate = new Date("2023-12-13T00:00:00"); // Your specified end date
+    const endDate = new Date("2023-12-21T00:00:00"); // Your specified end date
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -64,7 +64,7 @@ export default function Banner() {
         <div className={classes.left}>
           <p className={poppinsLight.className}>
             <FaRegCalendarAlt className={classes.calendar} />
-            13th December, 2023, Islamia University of Bahawalpur
+            21st December, 2023, Islamia University of Bahawalpur
           </p>
           <h1 className={poppins.className}>
             Bridging Tomorrow's Innovators with Today's Tech Titans
