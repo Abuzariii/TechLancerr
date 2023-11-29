@@ -20,7 +20,7 @@
 .keynote,
 .speaker {
   margin: 20px 10px;
-  min-height: 350px;
+  min-height: 370px;
   border-radius: 8px;
 }
 .keynote {
