@@ -26,9 +26,6 @@ export default function Navbar({ isIndexPage }) {
           <Link href="/partners" className="link">
             <p className={poppinsLight.className}>PARTNERS</p>
           </Link>
-          {/* <Link href="/schedule" className="link">
-            <p className={poppinsLight.className}>SCHEDULE</p>
-          </Link> */}
           <Link href="/contact" className="link">
             <p className={poppinsLight.className}>CONTACT US</p>
           </Link>

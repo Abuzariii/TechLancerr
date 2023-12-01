@@ -65,7 +65,7 @@ export default function Footer() {
         <Image src={techlancerrSmall} height={60} />
         <p className={poppins400.className}>
           <IoPin color="white" size="25px" className={classes.pin} />
-          21st December, Main Auditorium, The Islamia University of Bahawalpur
+          27th December, Main Auditorium, The Islamia University of Bahawalpur
         </p>
       </div>
     </div>

@@ -1,8 +1,12 @@
+"use client";
+
 import classes from "./Speakers.module.css";
 import { poppins400 } from "@/utils/fonts";
 import { poppins } from "@/utils/fonts";
 import Image from "next/image";
 import { BsLinkedin } from "react-icons/bs";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 import Zulqarnain from "../../../public/Speakers-Guests/Zulqarnain2.jpeg";
 import Hamid from "../../../public/Speakers-Guests/HamidJaved2.jpg";
@@ -14,23 +18,28 @@ import Tauqeer from "../../../public/Speakers-Guests/TauqeerAhmad2.png";
 import Umair from "../../../public/Speakers-Guests/UmairMajeed2.png";
 
 export default function Speakers() {
+  const pathname = usePathname();
   return (
     <div className={classes.speakers}>
       <h1 className={`${poppins.className} headingBg`}>SPEAKERS</h1>
 
       <div className={classes.main}>
-        <div className={classes.keynote}>
-          <h2 className={poppins400.className}>
-            Global Experts in Distributed Work
-          </h2>
-          <p className={poppins400.className}>
-            Join renowned distributed work experts. Our speakers are industry
-            practitioners with extensive experience leading, running, and
-            managing remote-first and hybrid teams. Over 50 experts will share
-            their industry insights, best practices, and learnings with you.
-          </p>
-          <button className={poppins400.className}>All Speakers</button>
-        </div>
+        {pathname == "/" && (
+          <div className={classes.keynote}>
+            <h2 className={poppins400.className}>
+              Global Experts in Distributed Work
+            </h2>
+            <p className={poppins400.className}>
+              Join renowned distributed work experts. Our speakers are industry
+              practitioners with extensive experience leading, running, and
+              managing remote-first and hybrid teams. Over 50 experts will share
+              their industry insights, best practices, and learnings with you.
+            </p>
+            <Link href="/speakers" className="link">
+              <button className={poppins400.className}>All Speakers</button>
+            </Link>
+          </div>
+        )}
 
         <div className={classes.speaker}>
           <Image src={Zulqarnain} className={classes.spkrImg} height={250} />
