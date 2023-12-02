@@ -195,7 +195,7 @@ export default function Speakers() {
           <div>
             <h3 className={poppins.className}>Farhan Ashraf</h3>
             <p className={poppins400.className}>
-              Co-Manager Manager Google Developer Group Cloud Lahore
+              DevSecOps Engineer and GitHub Campus Expert
             </p>
             <a
               href="https://www.linkedin.com/in/farhanashrafdev/"
