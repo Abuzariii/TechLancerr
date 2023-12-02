@@ -16,6 +16,10 @@ import Shehroz from "../../../public/Speakers-Guests/ShehrozAshraf2.png";
 import Tajumal from "../../../public/Speakers-Guests/TajumalHussain2.png";
 import Tauqeer from "../../../public/Speakers-Guests/TauqeerAhmad2.png";
 import Umair from "../../../public/Speakers-Guests/UmairMajeed2.png";
+import Sharjeel from "../../../public/Speakers-Guests/sharjeel2.png";
+import mahreen from "../../../public/Speakers-Guests/mahreen2.jpeg";
+import samad from "../../../public/Speakers-Guests/samad2.jpeg";
+import saifal from "../../../public/Speakers-Guests/saifal2.jpeg";
 
 export default function Speakers() {
   const pathname = usePathname();
@@ -32,7 +36,7 @@ export default function Speakers() {
             <p className={poppins400.className}>
               Join renowned distributed work experts. Our speakers are industry
               practitioners with extensive experience leading, running, and
-              managing remote-first and hybrid teams. Over 50 experts will share
+              managing remote-first and hybrid teams. Over 30 experts will share
               their industry insights, best practices, and learnings with you.
             </p>
             <Link href="/speakers" className="link">
@@ -152,6 +156,75 @@ export default function Speakers() {
             <p className={poppins400.className}>Founder and CEO Enigmatix</p>
             <a
               href="https://www.linkedin.com/in/tauqeer-ahmed-51b97a28"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin color="black" size="18px" />
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={Sharjeel} className={classes.spkrImg} height={250} />
+          <div>
+            <h3 className={poppins.className}>Sharjeel Yunus</h3>
+            <p className={poppins400.className}>
+              Senior Software Engineer @ Ensemble Technologies
+            </p>
+            <a
+              href="https://www.linkedin.com/in/sharjeel-yunus"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin color="black" size="18px" />
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={mahreen} className={classes.spkrImg} height={250} />
+          <div>
+            <h3 className={poppins.className}>Mahreen Sarwar</h3>
+            <p className={poppins400.className}>Graphics and UI/UX Designer</p>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={Tauqeer} className={classes.spkrImg} height={250} />
+          <div>
+            <h3 className={poppins.className}>Farhan Ashraf</h3>
+            <p className={poppins400.className}>
+              Co-Manager Manager Google Developer Group Cloud Lahore
+            </p>
+            <a
+              href="https://www.linkedin.com/in/farhanashrafdev/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin color="black" size="18px" />
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={samad} className={classes.spkrImg} height={250} />
+          <div>
+            <h3 className={poppins.className}>Malik Abdul Samad</h3>
+            <p className={poppins400.className}>
+              Project Manager @ E-Rozgar IUB
+            </p>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={saifal} className={classes.spkrImg} height={250} />
+          <div>
+            <h3 className={poppins.className}>Saifal Saeed</h3>
+            <p className={poppins400.className}>
+              CEO Lead Surface, Top Rated Plus Freelancer
+            </p>
+            <a
+              href="https://www.linkedin.com/in/saifal-saeed-501771159/?originalSubdomain=pk"
               target="_blank"
               rel="noreferrer"
             >

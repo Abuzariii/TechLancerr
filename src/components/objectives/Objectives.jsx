@@ -5,7 +5,7 @@ import { AiOutlineDollar } from "react-icons/ai";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { IoMdFlashlight } from "react-icons/io";
 import { GiBrain } from "react-icons/gi";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { CgCommunity } from "react-icons/cg";
 import { poppins400 } from "@/utils/fonts";
 import { poppins } from "@/utils/fonts";
 
@@ -40,12 +40,12 @@ const objectivesData = [
     description:
       "Providing insights into effective freelancing skill marketing and brand building.",
   },
-  // {
-  //   icon: <AiOutlineShoppingCart size={50} />,
-  //   title: "Media Buying",
-  //   description:
-  //     "Explore the dynamic world of media buying and advertising strategies. Learn to optimize ad placements, negotiate deals, and make impactful decisions in the fast-paced media industry.",
-  // },
+  {
+    icon: <CgCommunity size={55} />,
+    title: "Community Building",
+    description:
+      "Develop your own community of like minded people through our platform.",
+  },
 ];
 
 const Objectives = () => {

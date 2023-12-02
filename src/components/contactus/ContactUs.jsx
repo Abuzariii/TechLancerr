@@ -64,14 +64,14 @@ const ContactUs = () => {
           <h3>Contact Number</h3>
           <div className={classes.contactInfo}>
             <FaPhone className={classes.icon} />
-            <p>+1 234 567 890</p>
+            <p>+92 303 0797702</p>
           </div>
         </div>
         <div>
           <h3>Email</h3>
           <div className={classes.contactInfo}>
             <FaEnvelope className={classes.icon} />
-            <p>info@example.com</p>
+            <p>techlancerr@iub.edu.pk</p>
           </div>
         </div>
       </div>

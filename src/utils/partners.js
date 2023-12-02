@@ -79,18 +79,12 @@ const partners = [
   },
   {
     id: 13,
-    name: "Intel oneAPI",
-    category: "organizer",
-    logo: "/partners/oneAPI.png",
-  },
-  {
-    id: 14,
     name: "Graphisco Creative Studio",
     category: "organizer",
     logo: "/partners/graphisco.png",
   },
   {
-    id: 15,
+    id: 14,
     name: "Graphisco Creative Studio",
     category: "sponsor",
     logo: "/partners/graphisco.png",

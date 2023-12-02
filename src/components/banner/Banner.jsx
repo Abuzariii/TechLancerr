@@ -8,6 +8,8 @@ import fps from "../../../public/fps.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Navbar from "./navbar/Navbar";
+import iub from "../../../public/partners/iub.png";
+import dsa from "../../../public/partners/DSA.png";
 
 export default function Banner() {
   const [timerData, setTimerData] = useState([
@@ -91,11 +93,12 @@ export default function Banner() {
               <Image
                 src={fps}
                 className={classes.fps}
-                height={21}
-                // width={130}
+                height={23}
                 style={{ color: "white" }}
               />
             </p>
+            <Image src={iub} height={60} className={classes.iubLogos} />
+            <Image src={dsa} height={60} className={classes.iubLogos} />
           </div>
         </div>
 

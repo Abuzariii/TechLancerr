@@ -1,7 +1,7 @@
 import Banner from "@/components/banner/Banner";
 import Community from "@/components/community/Community";
 import Objectives from "@/components/objectives/Objectives";
-import Schedule from "@/components/schedule/Schedule";
+import Inclusives from "@/components/inclusives/Inclusives";
 import speakersData from "@/utils/speakers";
 import Speakers from "@/components/speakers/Speakers";
 import Partners from "@/components/partners/Partners";
@@ -13,7 +13,7 @@ export default function Home() {
       <Banner />
       <Community />
       <Objectives />
-      <Schedule />
+      <Inclusives />
       <Speakers speakers={speakersData} />
       <Partners />
       <RegistrationSection />

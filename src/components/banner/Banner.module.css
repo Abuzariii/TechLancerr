@@ -106,6 +106,9 @@
 .code {
   height: 500px;
 }
+.iubLogos {
+  margin: 10px 10px 0px 0px;
+}
 
 /* Media Queries */
 @media (max-width: 1200px) {
@@ -137,11 +140,6 @@
   .timer {
     width: 100%;
   }
-
-  /* .up > h1 {
-    font-size: 1.6rem;
-    width: 45px;
-  } */
   .down {
     height: 35%;
     font-size: 0.4rem;

@@ -13,13 +13,15 @@ export default function Footer() {
       <div className={classes.up}>
         <div>
           <h3 className={poppins.className}>Quick Links</h3>
-          {/* <Link href={"/schedule"} className="link">
+          <Link href={"/contact"} className="link">
             <p className={poppins400.className}>Contact Us</p>
-          </Link> */}
-          <p className={poppins400.className}>Contact Us</p>
-          <p className={poppins400.className}>Register</p>
-          <p className={poppins400.className}>Partners</p>
-          <p className={poppins400.className}>Speakers</p>
+          </Link>
+          <Link href={"/partners"} className="link">
+            <p className={poppins400.className}>Partners</p>
+          </Link>
+          <Link href={"/speakers"} className="link">
+            <p className={poppins400.className}>Speakers</p>
+          </Link>
         </div>
 
         <div className={classes.iconsDiv}>

@@ -1,13 +1,13 @@
-import classes from "./Schedule.module.css";
+import classes from "./Inclusives.module.css";
 import { poppins400 } from "@/utils/fonts";
 import { poppins } from "@/utils/fonts";
 import character from "../../../public/characterPhone.png";
 import Image from "next/image";
 
-export default function Schedule() {
+export default function Inclusives() {
   return (
     <div className={classes.schedule}>
-      <h1 className={`${poppins.className} headingBg`}>SCHEDULE</h1>
+      <h1 className={`${poppins.className} headingBg`}>EVENT INCLUSIVES</h1>
 
       <div className={classes.main}>
         <div className={classes.left}>
