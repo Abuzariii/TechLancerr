@@ -25,10 +25,28 @@ const Organizers = () => {
   );
 };
 
-const Sponsors = () => {
-  const sponsors = partners.filter(
-    (partner) => partner.category !== "organizer"
+const SupportingPartners = () => {
+  const sponsors = partners.filter((partner) => partner.category === "partner");
+
+  if (sponsors.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className={styles.sponsors}>
+      <h2>Supporting Partners</h2>
+      <div className={styles.partnerCards}>
+        {sponsors.map((partner) => (
+          <div className={`${styles.partnerCard}`} key={partner.id}>
+            <img src={partner.logo} alt={partner.name} />
+          </div>
+        ))}
+      </div>
+    </div>
   );
+};
+const Sponsors = () => {
+  const sponsors = partners.filter((partner) => partner.category === "sponsor");
 
   if (sponsors.length === 0) {
     return null;
@@ -52,6 +70,7 @@ const PartnerCard = () => {
   return (
     <div className={styles.partnersSection}>
       <Organizers />
+      <SupportingPartners />
       <Sponsors />
     </div>
   );

@@ -14,13 +14,13 @@ const partners = [
   {
     id: 3,
     name: "e Rozgar",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/e Rozgar.png",
   },
   {
     id: 4,
     name: "Google Developer Student Club - IUB",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/GDSC.png",
   },
   {
@@ -32,55 +32,55 @@ const partners = [
   {
     id: 6,
     name: "The Computing Students Society",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/CSS.png",
   },
   {
     id: 7,
     name: "PITB",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/PITB.png",
   },
   {
     id: 8,
     name: "Student Freelancer",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/Student Freelancer.png",
   },
   {
     id: 9,
     name: "NFTP",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/NFTP.png",
   },
   {
     id: 10,
     name: "Regional Plane 9",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/Regional Plane 9.png",
   },
   {
     id: 10,
     name: "DevHack Club",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/Devhack.png",
   },
   {
     id: 11,
     name: "IUB Social Media",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/IUB Social Media.png",
   },
   {
     id: 12,
     name: "Microsoft LSA",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/Microsoft.png",
   },
   {
     id: 13,
     name: "Graphisco Creative Studio",
-    category: "organizer",
+    category: "partner",
     logo: "/partners/graphisco.png",
   },
   {
@@ -88,6 +88,18 @@ const partners = [
     name: "Graphisco Creative Studio",
     category: "sponsor",
     logo: "/partners/graphisco.png",
+  },
+  {
+    id: 15,
+    name: "Ensemble",
+    category: "sponsor",
+    logo: "/partners/Ensemble.png",
+  },
+  {
+    id: 16,
+    name: "Oric",
+    category: "sponsor",
+    logo: "/partners/Oric.png",
   },
 ];
 

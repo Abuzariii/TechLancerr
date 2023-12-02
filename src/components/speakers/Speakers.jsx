@@ -20,6 +20,7 @@ import Sharjeel from "../../../public/Speakers-Guests/sharjeel2.png";
 import mahreen from "../../../public/Speakers-Guests/mahreen2.jpeg";
 import samad from "../../../public/Speakers-Guests/samad2.jpeg";
 import saifal from "../../../public/Speakers-Guests/saifal2.jpeg";
+import farhan from "../../../public/Speakers-Guests/farhan2.png";
 
 export default function Speakers() {
   const pathname = usePathname();
@@ -190,7 +191,7 @@ export default function Speakers() {
         </div>
 
         <div className={classes.speaker}>
-          <Image src={Tauqeer} className={classes.spkrImg} height={250} />
+          <Image src={farhan} className={classes.spkrImg} height={250} />
           <div>
             <h3 className={poppins.className}>Farhan Ashraf</h3>
             <p className={poppins400.className}>
