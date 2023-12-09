@@ -101,6 +101,12 @@ const partners = [
     category: "sponsor",
     logo: "/partners/Oric.png",
   },
+  {
+    id: 17,
+    name: "AZ Marketer",
+    category: "sponsor",
+    logo: "/partners/AZMarketer.png",
+  },
 ];
 
 export default partners;
