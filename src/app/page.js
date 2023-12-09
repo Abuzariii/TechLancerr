@@ -12,8 +12,8 @@ export default function Home() {
     <>
       <Banner />
       <Community />
-      <Objectives />
       <Inclusives />
+      <Objectives />
       <Speakers speakers={speakersData} />
       <Partners />
       <RegistrationSection />

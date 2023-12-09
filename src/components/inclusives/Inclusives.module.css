@@ -1,77 +1,73 @@
 .schedule {
-  width: 100%;
-  padding: 50px 0;
-
+  background-color: #d7eed2;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 70px;
 }
 
 .main {
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.main li {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(30, 97, 49, 0.4);
+  background: linear-gradient(90deg, #34a04a50, #7bc68910 100%);
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  /* color: #034f2d; */
+  padding: 8px 30px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55vh;
 }
-.left {
-  width: 40%;
-  height: 100%;
-  background-color: rgb(93, 161, 109);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.character {
-  height: 70%;
-  width: auto;
-}
-.right {
-  width: 60%;
-  height: 100%;
-
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-direction: column;
-  color: rgb(30, 97, 49);
-  background-color: rgb(194, 222, 197);
-}
-.right li {
-  list-style: disc;
-  font-size: 1.4rem;
-  margin: 10px 0 10px 200px;
+.main li:hover {
+  transform: translateY(-3px);
 }
 
 /* Media Queries */
 @media (max-width: 1200px) {
-  .right li {
-    list-style: disc;
-    font-size: 1.4rem;
-    margin: 10px 0 10px 50px;
+  .main li {
+    margin: 10px 0 10px 20px;
   }
 }
+
 @media (max-width: 900px) {
   .main {
-    height: 80vh;
+    height: auto;
   }
-  .left {
-    display: none;
-  }
-  .right {
-    width: 100%;
-  }
-  .right li {
-    list-style: disc;
-    margin: 10px 0 10px 100px;
+  .main li {
+    margin: 10px 0;
   }
 }
+
 @media (max-width: 700px) {
-  .right li {
-    list-style: disc;
+  .main li {
     font-size: 1rem;
-    margin: 10px 30px;
+    margin: 10px 20px;
   }
 }
