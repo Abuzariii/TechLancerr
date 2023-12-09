@@ -66,7 +66,7 @@ export default function Banner() {
         <div className={classes.left}>
           <p className={poppinsLight.className}>
             <FaRegCalendarAlt className={classes.calendar} />
-            27th December, 2023, Islamia University of Bahawalpur
+            27th December, 2023, The Islamia University of Bahawalpur
           </p>
           <h1 className={poppins.className}>
             Bridging Tomorrow's Innovators with Today's Tech Titans

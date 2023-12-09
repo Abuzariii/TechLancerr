@@ -8,16 +8,10 @@ export default function Community() {
     <div className={classes.community}>
       <div className={classes.content}>
         <h1 className={poppins400.className}>
-          We are excited to introduce you to an exceptional opportunity to make
-          a meaningful impact on the future of our students and the workforce.
-          The Islamia University of Bahawalpur is organizing a flagship event,
-          TechLancerr Summit. This event is designed to bridge the gap between
-          education and industry, offering students valuable insights, career
-          opportunities, and a clear path towards their future careers. To
-          motivate our youth to shift from primitive methods of freelancing to
-          introduce tech in freelancing. We are inviting tech companies to boost
-          learning and employment opportunities for tech students in South
-          Punjab.
+          Join us at the TechLancerr Summit by The Islamia University of
+          Bahawalpur—an opportunity to connect students with industry
+          professionals and gurus. We invite tech companies to boost learning
+          and employment opportunities in South Punjab!
         </h1>
       </div>
       <div className={classes.imageWrapper}>
