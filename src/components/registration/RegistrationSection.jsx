@@ -32,17 +32,40 @@ const RegistrationSections = () => {
         <div className={classes.registrationSection}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
-              Become a
-            </p>{" "}
-            Sponsor
+              Attend as a
+            </p>
+            GDSC Lead
           </h2>
           <div className={classes.lower}>
             <p className={`${classes.para}${poppinsLight.className}`}>
-              Showcase your brand and support the future of tech.
+              GDSC IUB invites leads all over Pakistan for a collaborative
+              session
             </p>
             <div className={classes.divider}></div>
             <a
-              href="https://forms.gle/PEBWrYzgdCBaWnyY9"
+              href="https://forms.gle/rpwa76CadG5RHfES6"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.registrationSection}>
+          <h2 className={classes.upper}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Become a
+            </p>
+            Featured Guest
+          </h2>
+          <div className={classes.lower}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Attend our networking sessions and meet industry professionals
+            </p>
+            <div className={classes.divider}></div>
+            <a
+              href="https://forms.gle/NpfTY12LyV6CN3Sw8"
               target="_blank"
               className={classes.registerButton}
             >
@@ -72,6 +95,44 @@ const RegistrationSections = () => {
             </a>
           </div>
         </div>
+
+        <div className={classes.registrationSection}>
+          <h2 className={classes.upper}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Become a
+            </p>{" "}
+            Sponsor
+          </h2>
+          <div className={classes.lower}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Showcase your brand and support the future of tech.
+            </p>
+            <div className={classes.divider}></div>
+            <a
+              href="https://forms.gle/PEBWrYzgdCBaWnyY9"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className={classes.buttons}>
+        <a
+          href="https://forms.gle/JeubDLbWG3nbZirT8"
+          target="_blank"
+          className={classes.registerButton}
+        >
+          Register Your Company Stall
+        </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfB8eHVRVZtIay7cjOMqG24Vrt3OOdfn_5UiVQz_j6ouMvSrA/viewform"
+          target="_blank"
+          className={classes.registerButton}
+        >
+          Apply for free Google Certification
+        </a>
       </div>
     </div>
   );
