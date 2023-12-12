@@ -31,29 +31,6 @@ export default function Register() {
         <div className={classes.registrationSection}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
-              Attend as a
-            </p>
-            GDSC Lead
-          </h2>
-          <div className={classes.lower}>
-            <p className={`${classes.para}${poppinsLight.className}`}>
-              GDSC IUB invites leads all over Pakistan for a collaborative
-              session
-            </p>
-            <div className={classes.divider}></div>
-            <a
-              href="https://forms.gle/rpwa76CadG5RHfES6"
-              target="_blank"
-              className={classes.registerButton}
-            >
-              Register
-            </a>
-          </div>
-        </div>
-
-        <div className={classes.registrationSection}>
-          <h2 className={classes.upper}>
-            <p className={`${classes.para}${poppinsLight.className}`}>
               Become a
             </p>
             Featured Guest
@@ -65,6 +42,28 @@ export default function Register() {
             <div className={classes.divider}></div>
             <a
               href="https://forms.gle/NpfTY12LyV6CN3Sw8"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.registrationSection}>
+          <h2 className={classes.upper}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Showcase your
+            </p>{" "}
+            Success Story
+          </h2>
+          <div className={classes.lower}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Share your story and inspire students
+            </p>
+            <div className={classes.divider}></div>
+            <a
+              href="https://forms.gle/mT18384rw7HKJG2e6"
               target="_blank"
               className={classes.registerButton}
             >
@@ -98,6 +97,28 @@ export default function Register() {
         <div className={classes.registrationSection}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
+              Apply for
+            </p>{" "}
+            Recognition Award
+          </h2>
+          <div className={classes.lower}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Get your hands on a special recognition award
+            </p>
+            <div className={classes.divider}></div>
+            <a
+              href="https://forms.gle/gsCc2JB69Wo7KBsT6"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.registrationSection}>
+          <h2 className={classes.upper}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
               Become a
             </p>{" "}
             Sponsor
@@ -116,21 +137,43 @@ export default function Register() {
             </a>
           </div>
         </div>
+        <div className={classes.registrationSection}>
+          <h2 className={classes.upper}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              Attend as a
+            </p>
+            GDSC Lead
+          </h2>
+          <div className={classes.lower}>
+            <p className={`${classes.para}${poppinsLight.className}`}>
+              GDSC IUB invites leads all over Pakistan for a collaborative
+              session
+            </p>
+            <div className={classes.divider}></div>
+            <a
+              href="https://forms.gle/rpwa76CadG5RHfES6"
+              target="_blank"
+              className={classes.registerButton}
+            >
+              Register
+            </a>
+          </div>
+        </div>
       </div>
       <div className={classes.buttons}>
-        <a
-          href="https://forms.gle/JeubDLbWG3nbZirT8"
-          target="_blank"
-          className={classes.registerButton}
-        >
-          Register Your Company Stall
-        </a>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfB8eHVRVZtIay7cjOMqG24Vrt3OOdfn_5UiVQz_j6ouMvSrA/viewform"
           target="_blank"
           className={classes.registerButton}
         >
           Apply for free Google Certification
+        </a>
+        <a
+          href="https://forms.gle/JeubDLbWG3nbZirT8"
+          target="_blank"
+          className={classes.registerButton}
+        >
+          Register Your Company Stall
         </a>
       </div>
     </div>
