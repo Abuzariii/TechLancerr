@@ -6,7 +6,6 @@ function page() {
   return (
     <div>
       <Navbar />
-      {" "}
       <Speakers speakers={speakersData} />
     </div>
   );
