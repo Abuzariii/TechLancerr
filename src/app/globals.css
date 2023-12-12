@@ -49,3 +49,8 @@ body {
   font-weight: 600;
   text-transform: capitalize;
 }
+@media (max-width: 600px) {
+  .headingBg {
+    font-size: 36px;
+  }
+}
