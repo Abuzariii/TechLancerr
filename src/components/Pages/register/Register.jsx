@@ -59,7 +59,8 @@ export default function Register() {
           </h2>
           <div className={classes.lower}>
             <p className={`${classes.para}${poppinsLight.className}`}>
-              Share your story and inspire students
+              Share your story and inspire students to embrace their unique
+              journeys
             </p>
             <div className={classes.divider}></div>
             <a
@@ -81,7 +82,8 @@ export default function Register() {
           </h2>
           <div className={classes.lower}>
             <p className={`${classes.para}${poppinsLight.className}`}>
-              Share your expertise and inspire the tech community.
+              Eager to share your expertise with the tech community? Come join
+              us
             </p>
             <div className={classes.divider}></div>
             <a
@@ -160,6 +162,7 @@ export default function Register() {
           </div>
         </div>
       </div>
+
       <div className={classes.buttons}>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSfB8eHVRVZtIay7cjOMqG24Vrt3OOdfn_5UiVQz_j6ouMvSrA/viewform"
