@@ -8,11 +8,11 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 70px;
 }
 
 .registrationSection {
   height: 290px;
+  min-width: 240px;
   text-align: center;
   border-radius: 10px;
   color: #349948;
@@ -21,7 +21,7 @@
   max-width: 250px;
   border: 10px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin: 15px;
 }
 
 .upper {
