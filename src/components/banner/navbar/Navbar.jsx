@@ -24,7 +24,7 @@ export default function Navbar({ isIndexPage }) {
 
         <div className={classes.pages}>
           <Link href="/speakers" className="link">
-            <p className={poppinsLight.className}>REGISTER</p>
+            <p className={poppinsLight.className}>Speakers</p>
           </Link>
 
           <Link href="/partners" className="link">

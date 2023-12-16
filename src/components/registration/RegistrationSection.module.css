@@ -5,23 +5,23 @@
 
 .registrationSections {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  /* max-width: 2000px; */
+  padding: 0 50px;
+  margin: 0 auto;
 }
 
-.registrationSection {
-  height: 290px;
-  min-width: 240px;
+.registrationCard {
   text-align: center;
   border-radius: 10px;
   color: #349948;
   background-color: white;
   box-shadow: -4px 7px 5px -1px #00000033;
-  max-width: 250px;
-  border: 10px;
   overflow: hidden;
-  margin: 15px;
+  padding-bottom: 10px;
 }
 
 .upper {
@@ -70,11 +70,11 @@
 .buttons {
   width: 100%;
   margin: 50px 0;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
+  gap: 50px;
 }
 .buttons > a {
   padding: 15px 15px;
@@ -85,4 +85,19 @@
   border-radius: 20px;
   font-weight: bold;
   box-shadow: -4px 7px 5px -1px #00000033;
+}
+
+
+@media screen and (max-width: 768px) {
+  .registrationSections {
+    padding: 0 20px;
+  }
+  .buttons {
+    gap: 0;
+    flex-direction: column;
+  }
+  .buttons > a {
+    max-width: 100%;
+  }
+  
 }
