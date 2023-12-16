@@ -107,6 +107,18 @@ const partners = [
     category: "sponsor",
     logo: "/partners/AZMarketer.png",
   },
+  {
+    id: 18,
+    name: "Infinite IT Solution",
+    category: "sponsor",
+    logo: "/partners/infinite.png",
+  },
+  {
+    id: 19,
+    name: "GitHub",
+    category: "partner",
+    logo: "/partners/github.png",
+  },
 ];
 
 export default partners;
