@@ -7,11 +7,11 @@ const RegistrationSections = () => {
     <div className={classes.bg} id="registrationSection">
       <div className="headingBg">REGISTER NOW</div>
       <div className={classes.registrationSections}>
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Join as an
-            </p>{" "}
+            </p>
             Attendee
           </h2>
           <div className={classes.lower}>
@@ -29,7 +29,7 @@ const RegistrationSections = () => {
           </div>
         </div>
 
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Become a
@@ -51,11 +51,11 @@ const RegistrationSections = () => {
           </div>
         </div>
 
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Showcase your
-            </p>{" "}
+            </p>
             Success Story
           </h2>
           <div className={classes.lower}>
@@ -74,7 +74,7 @@ const RegistrationSections = () => {
           </div>
         </div>
 
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Grace The Stage
@@ -97,11 +97,11 @@ const RegistrationSections = () => {
           </div>
         </div>
 
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Apply for
-            </p>{" "}
+            </p>
             Recognition Award
           </h2>
           <div className={classes.lower}>
@@ -119,11 +119,11 @@ const RegistrationSections = () => {
           </div>
         </div>
 
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Become a
-            </p>{" "}
+            </p>
             Sponsor
           </h2>
           <div className={classes.lower}>
@@ -140,7 +140,7 @@ const RegistrationSections = () => {
             </a>
           </div>
         </div>
-        <div className={classes.registrationSection}>
+        <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Attend as a

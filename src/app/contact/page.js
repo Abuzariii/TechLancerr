@@ -7,7 +7,13 @@ export default function ContactUsPage() {
     <div>
       <Navbar />
       <h1 className="headingBg">Contact Us</h1>
-      <ContactUsForm />
+      <div style={
+        {
+          paddingBottom: "100px"
+        }
+      }>
+        <ContactUsForm />
+      </div>
     </div>
   );
 }
