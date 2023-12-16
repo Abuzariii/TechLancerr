@@ -18,42 +18,41 @@ import mahreen from "../../../public/Speakers-Guests/mahreen2.jpeg";
 import samad from "../../../public/Speakers-Guests/samad2.jpeg";
 import saifal from "../../../public/Speakers-Guests/saifal2.jpeg";
 import farhan from "../../../public/Speakers-Guests/farhan2.png";
-
-import annus from "../../../public/Speakers-Guests/new/AnnusBinZia2.jpg";
-import adeel from "../../../public/Speakers-Guests/new/AdeelShahid2.jpg";
-import adnan from "../../../public/Speakers-Guests/new/AdnanMajeed2.jpg";
-import ahmadAslam from "../../../public/Speakers-Guests/new/AhmadIslamSyan2.jpg";
-import aitzaz from "../../../public/Speakers-Guests/new/AitzazDaud2.jpg";
-import asbar from "../../../public/Speakers-Guests/new/AsbarAli2.jpg";
-import hamna from "../../../public/Speakers-Guests/new/HamnaQaseem2.jpg";
-import hamzaRashid from "../../../public/Speakers-Guests/new/HamzaRashid2.jpg";
-import hashirFaiz from "../../../public/Speakers-Guests/new/HashirFaiz2.jpg";
-import hishamSarwar from "../../../public/Speakers-Guests/new/HishamSarwar2.jpg";
-import iqraAwais from "../../../public/Speakers-Guests/new/IqraAwais2.jpg";
-import irfanMalik from "../../../public/Speakers-Guests/new/IrfanMalik2.jpg";
-import javedIqbal from "../../../public/Speakers-Guests/new/JavedIqbal2.jpg";
-import maazAliNadeem from "../../../public/Speakers-Guests/new/MaazAliNadeem2.jpg";
-import muhammadWasif from "../../../public/Speakers-Guests/new/MohammadWasif2.jpg";
-import muhammadAslam from "../../../public/Speakers-Guests/new/MuhammadAslam2.JPG";
-import muneebJaved from "../../../public/Speakers-Guests/new/MuneebJaved2.jpeg";
-import namraNasyr from "../../../public/Speakers-Guests/new/NamraNasyr2.png";
-import naveedIqbal from "../../../public/Speakers-Guests/new/NaveedIqbal2.jpeg";
-import ranaHamzaSaif from "../../../public/Speakers-Guests/new/RanaHamzaSaif2.jpg";
-import rizwanMajeed from "../../../public/Speakers-Guests/new/RizwanMajeed2.jpg";
-import sajidLatif from "../../../public/Speakers-Guests/new/SajidLatif2.jpg";
-import shajeelAfzal from "../../../public/Speakers-Guests/new/ShajeelAfzal2.jpg";
-import sobanTariq from "../../../public/Speakers-Guests/new/SobanTariq2.jpg";
-import sultanMehmood from "../../../public/Speakers-Guests/new/SultanMehmood2.JPG";
-import syedArslan from "../../../public/Speakers-Guests/new/SyedArsalanAliShah2.jpg";
-import taimoorPardesi from "../../../public/Speakers-Guests/new/TaimoorPardesi2.jpg";
-import tanveerNadla from "../../../public/Speakers-Guests/new/TanveerNadla2.jpeg";
-import touseefSaeed from "../../../public/Speakers-Guests/new/TouseefSaeed2.jpg";
-import zahidSaeed from "../../../public/Speakers-Guests/new/ZahidSaeed2.png";
+import annus from "../../../public/Speakers-Guests/AnnusBinZia2.jpg";
+import adeel from "../../../public/Speakers-Guests/AdeelShahid2.jpg";
+import adnan from "../../../public/Speakers-Guests/AdnanMajeed2.jpg";
+import ahmadAslam from "../../../public/Speakers-Guests/AhmadIslamSyan2.jpg";
+import aitzaz from "../../../public/Speakers-Guests/AitzazDaud2.jpg";
+import asbar from "../../../public/Speakers-Guests/AsbarAli2.jpg";
+import hamna from "../../../public/Speakers-Guests/HamnaQaseem2.jpg";
+import hamzaRashid from "../../../public/Speakers-Guests/HamzaRashid2.jpg";
+import hashirFaiz from "../../../public/Speakers-Guests/HashirFaiz2.jpg";
+import hishamSarwar from "../../../public/Speakers-Guests/HishamSarwar2.jpg";
+import iqraAwais from "../../../public/Speakers-Guests/IqraAwais2.jpg";
+import irfanMalik from "../../../public/Speakers-Guests/IrfanMalik2.jpg";
+import javedIqbal from "../../../public/Speakers-Guests/JavedIqbal2.jpg";
+import maazAliNadeem from "../../../public/Speakers-Guests/MaazAliNadeem2.jpg";
+import muhammadWasif from "../../../public/Speakers-Guests/MohammadWasif2.jpg";
+import muhammadAslam from "../../../public/Speakers-Guests/MuhammadAslam2.JPG";
+import muneebJaved from "../../../public/Speakers-Guests/MuneebJaved2.jpeg";
+import namraNasyr from "../../../public/Speakers-Guests/NamraNasyr2.png";
+import naveedIqbal from "../../../public/Speakers-Guests/NaveedIqbal2.jpeg";
+import ranaHamzaSaif from "../../../public/Speakers-Guests/RanaHamzaSaif2.jpg";
+import rizwanMajeed from "../../../public/Speakers-Guests/RizwanMajeed2.jpg";
+import sajidLatif from "../../../public/Speakers-Guests/SajidLatif2.jpg";
+import shajeelAfzal from "../../../public/Speakers-Guests/ShajeelAfzal2.jpg";
+import sobanTariq from "../../../public/Speakers-Guests/SobanTariq2.jpg";
+import sultanMehmood from "../../../public/Speakers-Guests/SultanMehmood2.JPG";
+import syedArslan from "../../../public/Speakers-Guests/SyedArsalanAliShah2.jpg";
+import taimoorPardesi from "../../../public/Speakers-Guests/TaimoorPardesi2.jpg";
+import tanveerNadla from "../../../public/Speakers-Guests/TanveerNadla2.jpeg";
+import touseefSaeed from "../../../public/Speakers-Guests/TouseefSaeed2.jpg";
+import zahidSaeed from "../../../public/Speakers-Guests/ZahidSaeed2.png";
 
 export default function Speakers() {
   return (
     <div className={classes.speakers}>
-      <h1 className={`${poppins.className} headingBg`}>SPEAKERS</h1>
+      <h1 className={`${poppins.className} headingBg`}>SPEAKERS & GUESTS</h1>
 
       <div className={classes.main}>
         <div className={classes.speaker}>
