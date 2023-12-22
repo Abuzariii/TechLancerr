@@ -73,7 +73,7 @@ export default function Register() {
           </div>
         </div>
 
-        <div className={classes.registrationSection}>
+        {/* <div className={classes.registrationSection}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Grace The Stage
@@ -94,9 +94,9 @@ export default function Register() {
               Register
             </a>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.registrationSection}>
+        {/* <div className={classes.registrationSection}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Apply for
@@ -116,7 +116,7 @@ export default function Register() {
               Register
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.registrationSection}>
           <h2 className={classes.upper}>

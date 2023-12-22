@@ -74,7 +74,7 @@ const RegistrationSections = () => {
           </div>
         </div>
 
-        <div className={classes.registrationCard}>
+        {/* <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Grace The Stage
@@ -95,9 +95,9 @@ const RegistrationSections = () => {
               Register
             </a>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.registrationCard}>
+        {/* <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
               Apply for
@@ -117,7 +117,7 @@ const RegistrationSections = () => {
               Register
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
@@ -140,6 +140,7 @@ const RegistrationSections = () => {
             </a>
           </div>
         </div>
+
         <div className={classes.registrationCard}>
           <h2 className={classes.upper}>
             <p className={`${classes.para}${poppinsLight.className}`}>
