@@ -27,7 +27,7 @@ import asbar from "../../../public/Speakers-Guests/AsbarAli2.jpg";
 import hamna from "../../../public/Speakers-Guests/HamnaQaseem2.jpg";
 import hamzaRashid from "../../../public/Speakers-Guests/HamzaRashid2.jpg";
 import hashirFaiz from "../../../public/Speakers-Guests/HashirFaiz2.jpg";
-import hishamSarwar from "../../../public/Speakers-Guests/HishamSarwar2.jpg";
+import hishamSarwar from "../../../public/Speakers-Guests/Hisham2.jpg";
 import iqraAwais from "../../../public/Speakers-Guests/IqraAwais2.jpg";
 import irfanMalik from "../../../public/Speakers-Guests/IrfanMalik2.jpg";
 import javedIqbal from "../../../public/Speakers-Guests/JavedIqbal2.jpg";
@@ -48,6 +48,7 @@ import taimoorPardesi from "../../../public/Speakers-Guests/TaimoorPardesi2.jpg"
 import tanveerNadla from "../../../public/Speakers-Guests/TanveerNadla2.jpeg";
 import touseefSaeed from "../../../public/Speakers-Guests/TouseefSaeed2.jpg";
 import zahidSaeed from "../../../public/Speakers-Guests/ZahidSaeed2.png";
+import naveedAkhtar from "../../../public/Speakers-Guests/naveedAkhtar2.jpeg";
 
 export default function Speakers() {
   return (
@@ -104,18 +105,59 @@ export default function Speakers() {
             </a>
           </div>
         </div>
+
         <div className={classes.speaker}>
-          <Image src={Umair} className={classes.spkrImg} />
+          <Image src={farhan} className={classes.spkrImg} />
           <div>
-            <h3 className={poppins.className}>Umair Majeed</h3>
-            <p className={poppins400.className}>Founder and CEO Datics</p>
+            <h3 className={poppins.className}>Farhan Ashraf</h3>
+            <p className={poppins400.className}>
+              DevSecOps Engineer and GitHub Campus Expert
+            </p>
             <a
-              href="https://www.linkedin.com/in/umairmajeedrana"
+              href="https://www.linkedin.com/in/farhanashrafdev/"
               target="_blank"
               rel="noreferrer"
             >
               <BsLinkedin color="black" size="15px" />
             </a>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={naveedAkhtar} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}>Prof. Dr Naveed Akhtar</h3>
+            <p className={poppins400.className}>
+              Vice Chancellor, The Islamia Univeristy of Bahawalpur
+            </p>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={Haroon} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}>Haroon Q Raja</h3>
+            <p className={poppins400.className}>
+              Founder Happy Cloud, SVP PAFLA
+            </p>
+            <a
+              href="https://www.linkedin.com/in/hqraja/?originalSubdomain=pk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin color="black" size="15px" />
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={hishamSarwar} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}>Hisham Sarwar</h3>
+            <p className={poppins400.className}>
+              Freelancer, Blogger, SEO Specialist, Digital & Social Media
+              Marketer
+            </p>
           </div>
         </div>
 
@@ -143,19 +185,12 @@ export default function Speakers() {
         </div>
 
         <div className={classes.speaker}>
-          <Image src={Haroon} className={classes.spkrImg} />
+          <Image src={javedIqbal} className={classes.spkrImg} />
           <div>
-            <h3 className={poppins.className}>Haroon Q Raja</h3>
+            <h3 className={poppins.className}>Dr Javed Iqbal</h3>
             <p className={poppins400.className}>
-              Founder Happy Cloud, SVP PAFLA
+              Surgeon and Influential Speaker
             </p>
-            <a
-              href="https://www.linkedin.com/in/hqraja/?originalSubdomain=pk"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsLinkedin color="black" size="15px" />
-            </a>
           </div>
         </div>
 
@@ -185,23 +220,6 @@ export default function Speakers() {
         </div>
 
         <div className={classes.speaker}>
-          <Image src={farhan} className={classes.spkrImg} />
-          <div>
-            <h3 className={poppins.className}>Farhan Ashraf</h3>
-            <p className={poppins400.className}>
-              DevSecOps Engineer and GitHub Campus Expert
-            </p>
-            <a
-              href="https://www.linkedin.com/in/farhanashrafdev/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsLinkedin color="black" size="15px" />
-            </a>
-          </div>
-        </div>
-
-        <div className={classes.speaker}>
           <Image src={samad} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Malik Abdul Samad</h3>
@@ -211,7 +229,7 @@ export default function Speakers() {
           </div>
         </div>
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={saifal} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Saifal Saeed</h3>
@@ -226,7 +244,7 @@ export default function Speakers() {
               <BsLinkedin color="black" size="15px" />
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.speaker}>
           <Image src={annus} className={classes.spkrImg} />
@@ -251,17 +269,6 @@ export default function Speakers() {
             <h3 className={poppins.className}>Hashir Faiz</h3>
             <p className={poppins400.className}>
               SEO Specialist | Top Rated Website Developer
-            </p>
-          </div>
-        </div>
-
-        <div className={classes.speaker}>
-          <Image src={hishamSarwar} className={classes.spkrImg} />
-          <div>
-            <h3 className={poppins.className}>Hisham Sarwar</h3>
-            <p className={poppins400.className}>
-              Freelancer, Blogger, SEO Specialist, Digital & Social Media
-              Marketer
             </p>
           </div>
         </div>
@@ -318,6 +325,21 @@ export default function Speakers() {
         </div>
 
         <div className={classes.speaker}>
+          <Image src={Umair} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}>Umair Majeed</h3>
+            <p className={poppins400.className}>Founder and CEO Datics</p>
+            <a
+              href="https://www.linkedin.com/in/umairmajeedrana"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsLinkedin color="black" size="15px" />
+            </a>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
           <Image src={touseefSaeed} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Touseed Saeed</h3>
@@ -341,16 +363,6 @@ export default function Speakers() {
             <h3 className={poppins.className}>Muhammad Aslam</h3>
             <p className={poppins400.className}>
               Trainer NFTP | Top rated freelancer
-            </p>
-          </div>
-        </div>
-
-        <div className={classes.speaker}>
-          <Image src={javedIqbal} className={classes.spkrImg} />
-          <div>
-            <h3 className={poppins.className}>Dr Javed Iqbal</h3>
-            <p className={poppins400.className}>
-              Surgeon and Influential Speaker
             </p>
           </div>
         </div>
@@ -479,7 +491,9 @@ export default function Speakers() {
           <Image src={iqraAwais} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Iqra Awais</h3>
-            <p className={poppins400.className}>CEO IQ Writes</p>
+            <p className={poppins400.className}>
+              CEO IQ Writes, Digital Content Writer
+            </p>
           </div>
         </div>
 
