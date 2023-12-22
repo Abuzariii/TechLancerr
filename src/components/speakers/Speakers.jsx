@@ -27,7 +27,7 @@ import asbar from "../../../public/Speakers-Guests/AsbarAli2.jpg";
 import hamna from "../../../public/Speakers-Guests/HamnaQaseem2.jpg";
 import hamzaRashid from "../../../public/Speakers-Guests/HamzaRashid2.jpg";
 import hashirFaiz from "../../../public/Speakers-Guests/HashirFaiz2.jpg";
-import hishamSarwar from "../../../public/Speakers-Guests/Hisham2.jpg";
+import hishamSarwar from "../../../public/Speakers-Guests/hisham2.jpg";
 import iqraAwais from "../../../public/Speakers-Guests/IqraAwais2.jpg";
 import irfanMalik from "../../../public/Speakers-Guests/IrfanMalik2.jpg";
 import javedIqbal from "../../../public/Speakers-Guests/JavedIqbal2.jpg";
