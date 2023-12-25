@@ -50,6 +50,14 @@ import touseefSaeed from "../../../public/Speakers-Guests/TouseefSaeed2.jpg";
 import zahidSaeed from "../../../public/Speakers-Guests/ZahidSaeed2.png";
 import naveedAkhtar from "../../../public/Speakers-Guests/naveedAkhtar2.jpeg";
 
+// import atifAlvi from "../../../public/Speakers-Guests/new/DrAtifAlvi2.JPG";
+// import nomanAmeer from "../../../public/Speakers-Guests/new/NomanAmeer2.JPG";
+// import akhtarAli from "../../../public/Speakers-Guests/new/ProfDrAkhtarAli2.jpeg";
+// import irshadHussain from "../../../public/Speakers-Guests/new/ProfDrIrshadHussain2.JPG";
+// import jawadIqbal from "../../../public/Speakers-Guests/new/ProfDrJawadIqbal2.png";
+// import jawedHassan from "../../../public/Speakers-Guests/new/ProfDrJawedHassaanChandio2.jpeg";
+import jawedHassan from "../../../public/Speakers-Guests/new/ProfDrJawedHassaanChandio2.jpeg";
+
 export default function Speakers() {
   return (
     <div className={classes.speakers}>
@@ -150,7 +158,7 @@ export default function Speakers() {
           </div>
         </div>
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={hishamSarwar} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Hisham Sarwar</h3>
@@ -159,7 +167,7 @@ export default function Speakers() {
               Marketer
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.speaker}>
           <Image src={Shehroz} className={classes.spkrImg} />
@@ -184,7 +192,7 @@ export default function Speakers() {
           </div>
         </div>
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={javedIqbal} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Dr Javed Iqbal</h3>
@@ -192,7 +200,7 @@ export default function Speakers() {
               Surgeon and Influential Speaker
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.speaker}>
           <Image src={Sharjeel} className={classes.spkrImg} />
@@ -375,13 +383,13 @@ export default function Speakers() {
           </div>
         </div>
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={rizwanMajeed} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Rizwan Majeed</h3>
             <p className={poppins400.className}>Founder Digital South Punjab</p>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.speaker}>
           <Image src={ranaHamzaSaif} className={classes.spkrImg} />
@@ -421,15 +429,15 @@ export default function Speakers() {
           </div>
         </div>
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={maazAliNadeem} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Maaz Ali Nadeem</h3>
             <p className={poppins400.className}>CEO of Vector Inc.</p>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={irfanMalik} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Irfan Malik</h3>
@@ -437,17 +445,17 @@ export default function Speakers() {
               Founder and CEO of Xeven Solutions
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={shajeelAfzal} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Shajeel Afzal</h3>
             <p className={poppins400.className}>Founder UpAlert | Youtuber</p>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={sobanTariq} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Soban Tariq</h3>
@@ -455,9 +463,9 @@ export default function Speakers() {
               Founder Lets Uncover | Freelancer | Youtuber | Digital Marketer
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={adeel} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Adeel Shahid</h3>
@@ -465,7 +473,7 @@ export default function Speakers() {
               Co-Founder Audeel | Broadcaster | Video Editor | Audio Engineer
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.speaker}>
           <Image src={syedArslan} className={classes.spkrImg} />
@@ -497,7 +505,7 @@ export default function Speakers() {
           </div>
         </div>
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={namraNasyr} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Namra Nasyr</h3>
@@ -506,7 +514,7 @@ export default function Speakers() {
               Maker
             </p>
           </div>
-        </div>
+        </div> */}
 
         <div className={classes.speaker}>
           <Image src={zahidSaeed} className={classes.spkrImg} />
@@ -538,6 +546,16 @@ export default function Speakers() {
             </p>
           </div>
         </div>
+
+        {/* <div className={classes.speaker}>
+          <Image src={} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}></h3>
+            <p className={poppins400.className}>
+              
+            </p>
+          </div>
+        </div> */}
       </div>
     </div>
   );

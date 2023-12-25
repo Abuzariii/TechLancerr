@@ -11,16 +11,17 @@
 .main {
   width: 100%;
   display: flex;
-  overflow-x: auto;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .main::-webkit-scrollbar {
   width: 0;
-  height: 10px;
+  height: 5px;
 }
 .speaker {
-  margin: 30px 10px;
-  min-width: 190px;
+  margin: 20px 10px;
+  max-width: 190px;
+
   border-radius: 8px;
   background-color: white;
   display: flex;
@@ -53,8 +54,17 @@
 
 /* Media Queries */
 @media (max-width: 900px) {
+  .main {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: space-between;
+  }
+
   .speaker {
-    max-width: 150px;
+    margin: 20px 10px;
+    min-width: 190px;
   }
   .speaker h3 {
     font-size: 0.8rem;
@@ -62,8 +72,4 @@
   .speaker p {
     font-size: 0.5rem;
   }
-  /* .main::-webkit-scrollbar {
-    width: 0;
-    height: 5px;
-  } */
 }
