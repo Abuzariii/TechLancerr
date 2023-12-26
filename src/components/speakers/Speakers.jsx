@@ -70,9 +70,15 @@ import waleed from "../../../public/Speakers-Guests/waleed-modified.jpg";
 import waseemkhan from "../../../public/Speakers-Guests/waseemkhan-modified.JPG";
 import zafarAli from "../../../public/Speakers-Guests/zafarAli-modified.jpg";
 import ziaAhmad from "../../../public/Speakers-Guests/ziaAhmad-modified.jpg";
-
-// import nomanAmeer from "../../../public/Speakers-Guests/new/NomanAmeer2.JPG";
-// import akhtarAli from "../../../public/Speakers-Guests/new/ProfDrAkhtarAli2.jpeg";
+import samad from "../../../public/Speakers-Guests/samad2.jpeg";
+import shoaibManzoor from "../../../public/Speakers-Guests/shoaibManzoor-modified.jpeg";
+import haroon from "../../../public/Speakers-Guests/haroon-modified.jpeg";
+import haseeb from "../../../public/Speakers-Guests/haseeb-modified.jpeg";
+import amnaAshraf from "../../../public/Speakers-Guests/amnaAshraf-modified.jpeg";
+import zainKhalid from "../../../public/Speakers-Guests/zainKhalid-modified.jpeg";
+import adnanBukhari from "../../../public/Speakers-Guests/adnanBukhari-modified.jpeg";
+import abdulRauf from "../../../public/Speakers-Guests/abdulRauf-modified.jpeg";
+import faheem from "../../../public/Speakers-Guests/faheem-modified.jpeg";
 
 export default function Speakers() {
   return (
@@ -90,47 +96,47 @@ export default function Speakers() {
           </div>
         </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={naveedAkhtar} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={faheem} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Dr Faheem Mushtaq</h3>
             <p className={poppins400.className}>
               Assosiate Professor, Dept of Information Technology
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={naveedAkhtar} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={abdulRauf} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Prof Dr Abdul Rauf</h3>
             <p className={poppins400.className}>
               Director Student Affairs, The Islamia University of Bahawalpur
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={naveedAkhtar} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={adnanBukhari} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Dr Adnan Bukhari</h3>
             <p className={poppins400.className}>
               Additional DSA, IUB Student Societies
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={naveedAkhtar} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={haseeb} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Mr Haseeb Ali</h3>
             <p className={poppins400.className}>
               Co-Advisor, IUB Freelancing Promotion Society
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
+        <div className={classes.speaker}>
           <Image src={samad} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Malik Abdul Samad</h3>
@@ -138,47 +144,47 @@ export default function Speakers() {
               Project Manager @ E-Rozgar IUB
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={samad} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={zainKhalid} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Mr Muhammad Zain Khalid</h3>
             <p className={poppins400.className}>
               Co-Advisor, IUB Freelancing Promotion Society
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={samad} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={amnaAshraf} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Ms Amna Ashraf</h3>
             <p className={poppins400.className}>
               Co-Advisor, IUB Freelancing Promotion Society
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={samad} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={haroon} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Mr Haroon Mallana</h3>
             <p className={poppins400.className}>
               Co-Advisor, IUB Freelancing Promotion Society
             </p>
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={samad} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={shoaibManzoor} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Mr Shoaib Manzoor</h3>
             <p className={poppins400.className}>
               Mentor, Manager Regional Plan 9, Bahawalpur
             </p>
           </div>
-        </div> */}
+        </div>
 
         <div className={classes.speaker}>
           <Image src={dost} className={classes.spkrImg} />
