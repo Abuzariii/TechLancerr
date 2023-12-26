@@ -1,93 +1,78 @@
 "use client";
 
-import classes from "./Speakers.module.css";
-import { poppins400 } from "@/utils/fonts";
-import { poppins } from "@/utils/fonts";
+import { poppins, poppins400 } from "@/utils/fonts";
 import Image from "next/image";
 import { BsLinkedin } from "react-icons/bs";
+import classes from "./Speakers.module.css";
 
-import Zulqarnain from "../../../public/Speakers-Guests/Zulqarnain2.jpeg";
-import Hamid from "../../../public/Speakers-Guests/HamidJaved2.jpg";
-import Ammar from "../../../public/Speakers-Guests/AmmarJafferi2.jpg";
-import Haroon from "../../../public/Speakers-Guests/HaroonRaja2.png";
-import Shehroz from "../../../public/Speakers-Guests/ShehrozAshraf2.png";
-import Tajumal from "../../../public/Speakers-Guests/TajumalHussain2.png";
-import Umair from "../../../public/Speakers-Guests/UmairMajeed2.png";
-import Sharjeel from "../../../public/Speakers-Guests/sharjeel2.png";
-import mahreen from "../../../public/Speakers-Guests/mahreen2.jpeg";
-import samad from "../../../public/Speakers-Guests/samad2.jpeg";
-import saifal from "../../../public/Speakers-Guests/saifal2.jpeg";
-import farhan from "../../../public/Speakers-Guests/farhan2.png";
-import annus from "../../../public/Speakers-Guests/AnnusBinZia2.jpg";
-import adeel from "../../../public/Speakers-Guests/AdeelShahid2.jpg";
 import adnan from "../../../public/Speakers-Guests/AdnanMajeed2.jpg";
 import ahmadAslam from "../../../public/Speakers-Guests/AhmadIslamSyan2.jpg";
 import aitzaz from "../../../public/Speakers-Guests/AitzazDaud2.jpg";
+import Ammar from "../../../public/Speakers-Guests/AmmarJafferi2.jpg";
+import annus from "../../../public/Speakers-Guests/AnnusBinZia2.jpg";
 import asbar from "../../../public/Speakers-Guests/AsbarAli2.jpg";
+import Hamid from "../../../public/Speakers-Guests/HamidJaved2.jpg";
 import hamna from "../../../public/Speakers-Guests/HamnaQaseem2.jpg";
 import hamzaRashid from "../../../public/Speakers-Guests/HamzaRashid2.jpg";
+import Haroon from "../../../public/Speakers-Guests/HaroonRaja2.png";
 import hashirFaiz from "../../../public/Speakers-Guests/HashirFaiz2.jpg";
-import hishamSarwar from "../../../public/Speakers-Guests/hisham2.jpg";
 import iqraAwais from "../../../public/Speakers-Guests/IqraAwais2.jpg";
-import irfanMalik from "../../../public/Speakers-Guests/IrfanMalik2.jpg";
-import javedIqbal from "../../../public/Speakers-Guests/JavedIqbal2.jpg";
-import maazAliNadeem from "../../../public/Speakers-Guests/MaazAliNadeem2.jpg";
-import muhammadWasif from "../../../public/Speakers-Guests/MohammadWasif2.jpg";
 import muhammadAslam from "../../../public/Speakers-Guests/MuhammadAslam2.JPG";
 import muneebJaved from "../../../public/Speakers-Guests/MuneebJaved2.jpeg";
-import namraNasyr from "../../../public/Speakers-Guests/NamraNasyr2.png";
 import naveedIqbal from "../../../public/Speakers-Guests/NaveedIqbal2.jpeg";
 import ranaHamzaSaif from "../../../public/Speakers-Guests/RanaHamzaSaif2.jpg";
 import rizwanMajeed from "../../../public/Speakers-Guests/RizwanMajeed2.jpg";
 import sajidLatif from "../../../public/Speakers-Guests/SajidLatif2.jpg";
-import shajeelAfzal from "../../../public/Speakers-Guests/ShajeelAfzal2.jpg";
-import sobanTariq from "../../../public/Speakers-Guests/SobanTariq2.jpg";
+import Shehroz from "../../../public/Speakers-Guests/ShehrozAshraf2.png";
 import sultanMehmood from "../../../public/Speakers-Guests/SultanMehmood2.JPG";
 import syedArslan from "../../../public/Speakers-Guests/SyedArsalanAliShah2.jpg";
 import taimoorPardesi from "../../../public/Speakers-Guests/TaimoorPardesi2.jpg";
+import Tajumal from "../../../public/Speakers-Guests/TajumalHussain2.png";
 import tanveerNadla from "../../../public/Speakers-Guests/TanveerNadla2.jpeg";
 import touseefSaeed from "../../../public/Speakers-Guests/TouseefSaeed2.jpg";
+import Umair from "../../../public/Speakers-Guests/UmairMajeed2.png";
 import zahidSaeed from "../../../public/Speakers-Guests/ZahidSaeed2.png";
-import naveedAkhtar from "../../../public/Speakers-Guests/naveedAkhtar2.jpeg";
+import Zulqarnain from "../../../public/Speakers-Guests/Zulqarnain2.jpeg";
+import ahmadRaza from "../../../public/Speakers-Guests/ahmadRaza-modified.jpg";
+import akhtar from "../../../public/Speakers-Guests/akhtarAli-modified.jpeg";
+import amir from "../../../public/Speakers-Guests/amirFaisal-modified.jpeg";
+import amjad from "../../../public/Speakers-Guests/amjad-modified.jpeg";
+import awais from "../../../public/Speakers-Guests/awais-modified.jpg";
+import batool from "../../../public/Speakers-Guests/batoolShamim-modified.jpg";
+import burhan from "../../../public/Speakers-Guests/burhanTahir-modified.jpg";
+import chandio from "../../../public/Speakers-Guests/chandio-modified.jpeg";
+import dost from "../../../public/Speakers-Guests/dost-modified.jpg";
+import farhan from "../../../public/Speakers-Guests/farhan2.png";
+import haris from "../../../public/Speakers-Guests/harisYounas-modified.jpg";
+import jawad from "../../../public/Speakers-Guests/jawadIqbal-modified.png";
+import kainaat from "../../../public/Speakers-Guests/kainaat-modified.jpeg";
+import khalidMansoor from "../../../public/Speakers-Guests/khalidMansoor-modified.jpg";
+import mahreen from "../../../public/Speakers-Guests/mahreen2.jpeg";
 import mansoorRana from "../../../public/Speakers-Guests/mansoorRana.png";
+import umer from "../../../public/Speakers-Guests/muhammadUmer-modified.jpeg";
+import nadeemAkhtar from "../../../public/Speakers-Guests/nadeemAkhtar-modified.jpg";
+import nasir from "../../../public/Speakers-Guests/nasir.jpeg";
+import naveedAkhtar from "../../../public/Speakers-Guests/naveedAkhtar2.jpeg";
+import robina from "../../../public/Speakers-Guests/rubina.jpg";
+import saeedAhmad from "../../../public/Speakers-Guests/saeedAhmad-modified.jpeg";
+import buzdar from "../../../public/Speakers-Guests/saeedBuzdar-modified.jpeg";
+import saifal from "../../../public/Speakers-Guests/saifal2.jpeg";
+import salahuddin from "../../../public/Speakers-Guests/salahuddin-modified.jpeg";
+import shafiqurRehman from "../../../public/Speakers-Guests/shafiqurRehman-modified.jpg";
+import shahzadJameel from "../../../public/Speakers-Guests/shahzadJameel-modified.jpg";
+import Sharjeel from "../../../public/Speakers-Guests/sharjeel2.png";
+import shazia from "../../../public/Speakers-Guests/shazia-modified.jpg";
+import sohailIdrees from "../../../public/Speakers-Guests/sohailIdrees-modified.jpg";
+import sulemanAli from "../../../public/Speakers-Guests/sulemanAli-modified.jpeg";
+import tanveerHussain from "../../../public/Speakers-Guests/tanveer.jpeg";
+import tauqeer from "../../../public/Speakers-Guests/tauqeer.png";
+import waleed from "../../../public/Speakers-Guests/waleed-modified.jpg";
+import waseemkhan from "../../../public/Speakers-Guests/waseemkhan-modified.JPG";
+import zafarAli from "../../../public/Speakers-Guests/zafarAli-modified.jpg";
+import ziaAhmad from "../../../public/Speakers-Guests/ziaAhmad-modified.jpg";
 
-// import atifAlvi from "../../../public/Speakers-Guests/new/DrAtifAlvi2.JPG";
 // import nomanAmeer from "../../../public/Speakers-Guests/new/NomanAmeer2.JPG";
 // import akhtarAli from "../../../public/Speakers-Guests/new/ProfDrAkhtarAli2.jpeg";
-// import irshadHussain from "../../../public/Speakers-Guests/new/ProfDrIrshadHussain2.JPG";
-// import jawadIqbal from "../../../public/Speakers-Guests/new/ProfDrJawadIqbal2.png";
-// import jawedHassan from "../../../public/Speakers-Guests/new/ProfDrJawedHassaanChandio2.jpeg";
-// import jawedHassan from "../../../public/Speakers-Guests/new/ProfDrJawedHassaanChandio2.jpeg";
-
-import ahmadRaza from "../../../public/Speakers-Guests/new2/ahmadRaza-modified.jpg";
-import akhtar from "../../../public/Speakers-Guests/new2/akhtarAli-modified.jpeg";
-import amir from "../../../public/Speakers-Guests/new2/amirFaisal-modified.jpeg";
-import amjad from "../../../public/Speakers-Guests/new2/amjad-modified.jpeg";
-import awais from "../../../public/Speakers-Guests/new2/awais-modified.jpg";
-import batool from "../../../public/Speakers-Guests/new2/batoolShamim-modified.jpg";
-import burhan from "../../../public/Speakers-Guests/new2/burhanTahir-modified.jpg";
-import chandio from "../../../public/Speakers-Guests/new2/chandio-modified.jpeg";
-import dost from "../../../public/Speakers-Guests/new2/dost-modified.jpg";
-import haris from "../../../public/Speakers-Guests/new2/harisYounas-modified.jpg";
-import jawad from "../../../public/Speakers-Guests/new2/jawadIqbal-modified.png";
-import kainaat from "../../../public/Speakers-Guests/new2/kainaat-modified.jpeg";
-import khalidMansoor from "../../../public/Speakers-Guests/new2/khalidMansoor-modified.jpg";
-import umer from "../../../public/Speakers-Guests/new2/muhammadUmer-modified.jpeg";
-import nadeemAkhtar from "../../../public/Speakers-Guests/new2/nadeemAkhtar-modified.jpg";
-import rao from "../../../public/Speakers-Guests/new2/raoHabib-modified.png";
-import saeedAhmad from "../../../public/Speakers-Guests/new2/saeedAhmad-modified.jpeg";
-import buzdar from "../../../public/Speakers-Guests/new2/saeedBuzdar-modified.jpeg";
-import salahuddin from "../../../public/Speakers-Guests/new2/salahuddin-modified.jpeg";
-import shafiqurRehman from "../../../public/Speakers-Guests/new2/shafiqurRehman-modified.jpg";
-import shahzadJameel from "../../../public/Speakers-Guests/new2/shahzadJameel-modified.jpg";
-import shazia from "../../../public/Speakers-Guests/new2/shazia-modified.jpg";
-import sohailIdrees from "../../../public/Speakers-Guests/new2/sohailIdrees-modified.jpg";
-import sulemanAli from "../../../public/Speakers-Guests/new2/sulemanAli-modified.jpeg";
-import waleed from "../../../public/Speakers-Guests/new2/waleed-modified.jpg";
-import waseemkhan from "../../../public/Speakers-Guests/new2/waseemkhan-modified.JPG";
-import zafarAli from "../../../public/Speakers-Guests/new2/zafarAli-modified.jpg";
-import ziaAhmad from "../../../public/Speakers-Guests/new2/ziaAhmad-modified.jpg";
-import tauqeer from "../../../public/Speakers-Guests/new2/tauqeer.png";
 
 export default function Speakers() {
   return (
@@ -215,8 +200,8 @@ export default function Speakers() {
           </div>
         </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={samad} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={tanveerHussain} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>
               Prof Dr Tanveer Hussain Turrabi
@@ -225,7 +210,7 @@ export default function Speakers() {
               Dean Faculty of Agriculture and Environment, IUB
             </p>
           </div>
-        </div> */}
+        </div>
 
         {/* <div className={classes.speaker}>
           <Image src={samad} className={classes.spkrImg} />
@@ -255,15 +240,15 @@ export default function Speakers() {
           </div>
         </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={samad} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={robina} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Prof Dr Robina Bhatti</h3>
             <p className={poppins400.className}>
               Dean Faculty of Social Sciences, IUB
             </p>
           </div>
-        </div> */}
+        </div>
 
         <div className={classes.speaker}>
           <Image src={shafiqurRehman} className={classes.spkrImg} />
@@ -342,6 +327,14 @@ export default function Speakers() {
           <div>
             <h3 className={poppins.className}>Rizwan Majeed</h3>
             <p className={poppins400.className}>Founder Digital South Punjab</p>
+          </div>
+        </div>
+
+        <div className={classes.speaker}>
+          <Image src={nasir} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}>Muhammad Nasir</h3>
+            <p className={poppins400.className}>Additional Director IT</p>
           </div>
         </div>
 
@@ -1053,15 +1046,6 @@ export default function Speakers() {
             <p className={poppins400.className}>UI/UX Designer</p>
           </div>
         </div> */}
-
-        {/* Fuck */}
-        {/* Fuck */}
-        {/* Fuck */}
-        {/* Fuck */}
-        {/* Fuck */}
-        {/* Fuck */}
-        {/* Fuck */}
-        {/* Fuck */}
       </div>
     </div>
   );
