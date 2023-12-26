@@ -49,6 +49,7 @@ import tanveerNadla from "../../../public/Speakers-Guests/TanveerNadla2.jpeg";
 import touseefSaeed from "../../../public/Speakers-Guests/TouseefSaeed2.jpg";
 import zahidSaeed from "../../../public/Speakers-Guests/ZahidSaeed2.png";
 import naveedAkhtar from "../../../public/Speakers-Guests/naveedAkhtar2.jpeg";
+import mansoorRana from "../../../public/Speakers-Guests/mansoorRana.png";
 
 // import atifAlvi from "../../../public/Speakers-Guests/new/DrAtifAlvi2.JPG";
 // import nomanAmeer from "../../../public/Speakers-Guests/new/NomanAmeer2.JPG";
@@ -450,6 +451,16 @@ export default function Speakers() {
             <p className={poppins400.className}>Director Operations BixiSoft</p>
           </div>
         </div> */}
+
+        <div className={classes.speaker}>
+          <Image src={mansoorRana} className={classes.spkrImg} />
+          <div>
+            <h3 className={poppins.className}>Mansoor Rana</h3>
+            <p className={poppins400.className}>
+              Director Operations, BixiSoft
+            </p>
+          </div>
+        </div>
 
         <div className={classes.speaker}>
           <Image src={batool} className={classes.spkrImg} />
