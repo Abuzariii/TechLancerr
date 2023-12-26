@@ -79,6 +79,7 @@ import zainKhalid from "../../../public/Speakers-Guests/zainKhalid-modified.jpeg
 import adnanBukhari from "../../../public/Speakers-Guests/adnanBukhari-modified.jpeg";
 import abdulRauf from "../../../public/Speakers-Guests/abdulRauf-modified.jpeg";
 import faheem from "../../../public/Speakers-Guests/faheem-modified.jpeg";
+import zawar from "../../../public/Speakers-Guests/zawar.jpeg";
 
 export default function Speakers() {
   return (
@@ -344,13 +345,13 @@ export default function Speakers() {
           </div>
         </div>
 
-        {/* <div className={classes.speaker}>
-          <Image src={sajidLatif} className={classes.spkrImg} />
+        <div className={classes.speaker}>
+          <Image src={zawar} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Mr Zawar Hussain</h3>
             <p className={poppins400.className}>Chairman Dept. of Statistics</p>
           </div>
-        </div> */}
+        </div>
 
         {/* <div className={classes.speaker}>
           <Image src={sajidLatif} className={classes.spkrImg} />
