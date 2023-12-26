@@ -144,7 +144,7 @@ export default function Speakers() {
           </div>
         </div> */}
 
-        <div className={classes.speaker}>
+        {/* <div className={classes.speaker}>
           <Image src={samad} className={classes.spkrImg} />
           <div>
             <h3 className={poppins.className}>Malik Abdul Samad</h3>
@@ -152,7 +152,7 @@ export default function Speakers() {
               Project Manager @ E-Rozgar IUB
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className={classes.speaker}>
           <Image src={samad} className={classes.spkrImg} />
