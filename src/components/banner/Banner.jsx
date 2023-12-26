@@ -20,7 +20,7 @@ export default function Banner() {
   ]);
 
   useEffect(() => {
-    const endDate = new Date("2023-12-27T00:00:00"); // Your specified end date
+    const endDate = new Date("2023-12-27T10:30:00"); // Your specified end date
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
