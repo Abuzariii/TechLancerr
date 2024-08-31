@@ -19,7 +19,7 @@ This is the official website of the TechLancerr summit, organized by IUB Freelan
   <img alt="Ayesha | LinkedIN"  src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-### **Muhammad Faez Shabbir**
+### **Muhammad Faeez Shabbir**
 
 <img src="public/creators/faez.jpg" alt="Alt text" width="200">
 
